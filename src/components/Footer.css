@@ -21,6 +21,10 @@ li{
     color:var(--primary);
     padding:8px;
     margin:10px;
+    text-decoration: none;
+}
+.flinks{
+    color:var(--primary);
 }
 li:hover{
     transform: scale(1.1);
