@@ -5,6 +5,9 @@ const FormSignup = (props) => {
 
     const[user,setUser]=React.useState('');
     const[userErr,setUserErr]=React.useState({})
+    const[ps,setPs]=React.useState('');
+    const[psErr,setPsErr]=React.useState({})
+    
     let history = useHistory();
 
     const handleSubmit=(e)=>{
@@ -16,16 +19,18 @@ const FormSignup = (props) => {
     }
     const formValidation=()=>{
        const userErr={};
+       const psErr={};
         let isValid=true;
         if(user.trim().length<5){
             userErr.userShort='UserName is too short';
             isValid=false;
         }
-        if(!user.includes('123')){
-            userErr.user123='username must have 123';
+        if(ps.trim().length<5){
+            psErr.pser='Password too short';
             isValid=false;
         }
         setUserErr(userErr);
+        setPsErr(psErr);
         return isValid;
     }
 
@@ -55,8 +60,13 @@ const FormSignup = (props) => {
                 <div className='form-input password'>
                     <label htmlFor='password' className='form-label'>Password</label>
                         <input  id='password' type='password' name='password' className='form-input' placeholder='Enter Password' required
-                       />
+                       onChange={(e)=>{setPs(e.target.value)}}/>
                 </div>
+                {Object.keys(psErr).map((key)=>{
+                    return <div style={{color:'red'}}>{psErr[key]}</div>
+                }
+                )}
+                <br/>
                 <button className='form-input-btn'
                 type='submit'>Sign Up</button>
             </form>
