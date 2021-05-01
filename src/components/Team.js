@@ -5,7 +5,7 @@ import TeamCards from './TeamCards'
 
 const Team = () => {
     return (
-        <div className='team_container'>
+        <div className='team_container' id='team'>
             <h1>Meet the Team</h1>
             <div className='team_cards'>
             <div className='team_wrapper'>

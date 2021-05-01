@@ -4,7 +4,7 @@ import React from 'react'
 
 const About = () => {
     return (
-        <div className='cards' >
+        <div className='cards' id='about' >
             <h1>Who Are We?</h1>
             <hr/>
             <div className='cards_container'>

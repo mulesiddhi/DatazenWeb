@@ -4,6 +4,7 @@ import React,{useState} from 'react'
 
 import Button from './Button';
 import { Link } from 'react-router-dom'
+import {Link as LinkS} from 'react-scroll'
 
 function Navbar() {
 
@@ -42,22 +43,22 @@ function Navbar() {
               </div>
               <ul className={click? 'nav-menu active':'nav-menu'}>
                 <li className='nav-item'>
-                    <Link to='/about' className='nav-links' onClick={closeMobileMenu}>
+                    <LinkS to='about' smooth={true} className='nav-links' onClick={closeMobileMenu}>
                         About Us
-                    </Link>
+                    </LinkS>
                 </li>  
                 <li className='nav-item'>
-                    <Link to='/team' className='nav-links' onClick={closeMobileMenu}>
+                    <LinkS to='team' smooth={true} className='nav-links' onClick={closeMobileMenu}>
                        Team
-                    </Link>
+                    </LinkS>
                 </li> 
                 <li className='nav-item'>
-                    <Link to='/contact' className='nav-links' onClick={closeMobileMenu}>
+                    <LinkS to='contact' smooth={true} className='nav-links' onClick={closeMobileMenu}>
                     Contact Us
-                    </Link>
+                    </LinkS>
                 </li> 
                 <li className='nav-item'>
-                    <Link to='/sign-up' className='nav-links-mobile' onClick={closeMobileMenu}>
+                    <Link to='/signup' className='nav-links-mobile' onClick={closeMobileMenu}>
                        Sign Up
                     </Link>
                 </li> 

@@ -5,7 +5,7 @@ import React from 'react'
 
 const Footer = () => {
     return (
-        <div className='footer' >
+        <div className='footer' id='contact' >
             <h1>Techno</h1>
             <h3>Strive for greatness.</h3>
             <ul classname='ilist'>
