@@ -1,0 +1,70 @@
+:root{
+    font-size:100%;
+    font-size:16px;
+    line-height:1.5;
+    --black:#242424;
+}
+form>h2{
+font-size:1.5rem;
+font-weight:700;
+margin-bottom: 40px;
+}
+.split-screen{
+ display:flex;
+ flex-direction:column;
+ margin:30px;
+ margin-top:50px;
+ padding:10px;
+}
+
+
+.right{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:black;
+    text-align: center;
+}
+
+.right form{
+    width:320px;
+}
+form input[type='text'],
+form input[type='email'],
+form input[type='password']{
+    display:block;
+    width:100%;
+    box-sizing: border-box;
+    border-radius: 8px;
+    border:1px solid #c4c4c4;
+    padding:1rem;
+    margin-bottom:1.25rem;
+    font-size:0.875rem;
+}
+label{
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size:0.95rem
+}
+.form-input .password{
+position: relative;
+}
+.form-input-btn{
+    display: block;
+    width:100%;
+    background:var(--black);
+    color:white;
+    font-weight:700;
+    border: none;
+    padding:1rem;
+    border-radius: 8px;
+    margin-bottom:50px;
+    font-size:0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+.form-input-btn:hover{
+    cursor:pointer;
+    transform: scale(1.1);
+}
+  
