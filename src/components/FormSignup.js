@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import React from 'react'
 
 const FormSignup = () => {
@@ -5,11 +6,13 @@ const FormSignup = () => {
     
     const handleSubmit=(e)=>{
         e.preventDefault();
+        
     }
 
     return (
         <div className='split-screen'>
             <div className='right'>
+                
             <form classNmae='form' onSubmit={handleSubmit}>
                 <h2>
                     Get Started With Us Today! 
@@ -29,8 +32,10 @@ const FormSignup = () => {
                         <input  id='password' type='password' name='password' className='form-input' placeholder='Enter Password'
                        />
                 </div>
+                <Link to='/'>
                 <button className='form-input-btn'
                 type='submit'>Sign Up</button>
+                </Link>
             </form>
             </div>
         </div>
