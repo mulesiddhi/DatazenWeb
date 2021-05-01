@@ -11,7 +11,7 @@ const Footer = () => {
             <h3>Official Council for Data Science</h3>
             <ul classname='ilist'>
                 <li>
-                <Link to={{ pathname: "https://www.instagram.com/" }} target="_blank" className='flinks' >
+                <Link to={{ pathname: "https://www.instagram.com/datazensomaiya/" }} target="_blank" className='flinks' >
                 <i class="fab fa-instagram fa-2x"></i> 
                 </Link>
                 </li>

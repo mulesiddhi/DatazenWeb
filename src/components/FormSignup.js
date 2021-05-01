@@ -32,10 +32,8 @@ const FormSignup = () => {
                         <input  id='password' type='password' name='password' className='form-input' placeholder='Enter Password'
                        />
                 </div>
-                <Link to='/'>
                 <button className='form-input-btn'
                 type='submit'>Sign Up</button>
-                </Link>
             </form>
             </div>
         </div>
