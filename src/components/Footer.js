@@ -6,7 +6,8 @@ import React from 'react'
 const Footer = () => {
     return (
         <div className='footer' id='contact' >
-            <h1>Techno</h1>
+            <div className='fbox1'>
+            <h1>DataZen</h1>
             <h3>Strive for greatness.</h3>
             <ul classname='ilist'>
                 <li>
@@ -25,7 +26,13 @@ const Footer = () => {
                 </Link>
                 </li>
             </ul>
-            
+            </div>
+            <div className='fbox2'>
+            <h2>Contact Us</h2>
+            <div className='address'>
+            <i class="fas fa-map-marker-alt fa-2x"></i>
+            </div>
+            </div>
         </div>
     )
 }
