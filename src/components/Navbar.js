@@ -2,14 +2,13 @@ import './Navbar.css';
 
 import React,{useState} from 'react'
 
-import Button from './Button';
 import { Link } from 'react-router-dom'
 import {Link as LinkS} from 'react-scroll'
 
 function Navbar() {
 
     const[click,setClick]=useState(false);
-    const [button,setButton]=useState(true);
+    // const [button,setButton]=useState(true);
 
     const handleClick=()=>{
         setClick(!click);
@@ -19,16 +18,16 @@ function Navbar() {
         setClick(false);
     }
 
-    const showButton=()=>{
-        if(window.innerWidth<=960){
-            setButton(false);
-        }
-        else{
-            setButton(true);
-        }
-    }
+    // const showButton=()=>{
+    //     if(window.innerWidth<=960){
+    //         setButton(false);
+    //     }
+    //     else{
+    //         setButton(true);
+    //     }
+    // }
 
-    window.addEventListener('resize',showButton);
+    // window.addEventListener('resize',showButton);
 
     return (
         <div>
@@ -57,13 +56,12 @@ function Navbar() {
                     Contact Us
                     </LinkS>
                 </li> 
-                <li className='nav-item'>
+                {/* <li className='nav-item'>
                     <Link to='/signup' className='nav-links-mobile' onClick={closeMobileMenu}>
                        Sign Up
                     </Link>
-                </li> 
+                </li>  */}
               </ul>
-              {button && <Button buttonStyle='btn--outline' path='/signup' >SIGNUP</Button>}
               </div>
           </nav>  
         </div>
