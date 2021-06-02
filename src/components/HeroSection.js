@@ -2,8 +2,6 @@ import './HeroSection.css';
 import '../App.css'
 
 import  Button  from './Button'
-import {Link} from 'react-router-dom'
-import {Link as LinkS} from 'react-scroll'
 import React from 'react'
 import Typing from 'react-typing-animation';
 

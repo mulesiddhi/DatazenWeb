@@ -5,10 +5,10 @@ import TeamCards from './TeamCards'
 
 const Team = () => {
     return (
-        <div className='team_container' id='team'>
-            <h1>Meet the Team</h1>
-            <div className='team_cards'>
-            <div className='team_wrapper'>
+        <div className='team_Container' id='team'>
+            <h1 className='ttxt'>Meet the Team</h1>
+            <div className='team_Cards'>
+            <div className='team_Wrapper'>
             
                 
             </div>

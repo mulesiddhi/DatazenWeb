@@ -7,8 +7,8 @@ const About = () => {
         <div className='cards' id='about' >
             <h1>About Us</h1>
             <hr/>
-            <div className='cards_container'>
-                <div className='cards_wrapper'>
+            <div className='cards_Container'>
+                <div className='cards_Wrapper'>
                   <div className='box1' >
                   <p>We are the official data science council of KJSCE and we want to help everyone understand and work with data irrespective of their current current knowledge and field. </p>
                   <br/>

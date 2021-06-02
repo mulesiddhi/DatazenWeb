@@ -1,17 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
-.team_container{
+
+.team_Container{
     color:white;
     padding:4rem;
     background-color: black;
 }
-h1 {
+.ttxt {
  margin-left:10px;
   text-align:start;
   font-family: 'Bebas Neue';
   font-size:2.5rem;
+  font-weight: bold;
 }
-.team_wrapper{
+.team_Wrapper{
     margin:5px;
     display:flex;
     flex-wrap:wrap;
@@ -19,34 +21,34 @@ h1 {
     justify-content: center;
 }
 
-.card_container:hover{
+.card_Container:hover{
     transform: scale(1.1);
 }
-.card_img{
+.card_Img{
     width:100%;
     object-fit: cover;
 }
-.card_container{
+.card_Container{
    max-width:300px;
    margin:0 auto; 
    margin-top:5vh;
 }
-.card_wrap{
+.card_Wrap{
     background-color: #fff;
     padding:8px;
     border-radius:12px;
     border:1px solid rgb(230, 226, 226);
 }
-.card_title{
+.card_Title{
     color:#242424;
     font-weight:600;
     font-size:14px;
     text-transform: uppercase;
     margin-top:10px;
 }
-.card_body{
+.card_Body{
     color:#242424;
 }
-.card_content{
+.card_Content{
     padding:16px 8px 8px;
 }

@@ -1,8 +1,8 @@
 import './Navbar.css';
 
+import { Link, useLocation } from 'react-router-dom'
 import React,{useState} from 'react'
 
-import { Link } from 'react-router-dom'
 import {Link as LinkS} from 'react-scroll'
 
 function Navbar() {
@@ -28,39 +28,55 @@ function Navbar() {
     // }
 
     // window.addEventListener('resize',showButton);
+    
+    //finding out current url
+    const location = useLocation();
+    const url=(location.pathname);
 
     return (
         <div>
-          <nav className='navbar'>
-              <div className='navbar-container'> 
-              <Link to='/' className='navbar-logo'>
+          <nav className='navBar'>
+              <div className='navBar-container'> 
+              <Link to='/' className='navBar-logo'>
                 DataZen
               </Link>
-              <div className='menu-icon' onClick={handleClick}>
+              <div className='menu-Icon' onClick={handleClick}>
                   <i className={click ? 'fas fa-times':'fas fa-bars'}/>
 
               </div>
-              <ul className={click? 'nav-menu active':'nav-menu'}>
-                <li className='nav-item'>
-                    <LinkS to='about' smooth={true} className='nav-links' onClick={closeMobileMenu}>
+              <ul className={click? 'nav-Menu active':'nav-Menu'}>
+                <li className='nav-Item'>
+                    {url==='/'? <LinkS to='about' smooth={true}  className='nav-Links' onClick={closeMobileMenu}>
                         About Us
-                    </LinkS>
+                    </LinkS>:<Link to='/' smooth={true} className='nav-Links' onClick={closeMobileMenu}>
+                        About Us
+                    </Link>}
                 </li>  
-                <li className='nav-item'>
-                    <LinkS to='team' smooth={true} className='nav-links' onClick={closeMobileMenu}>
-                       Team
-                    </LinkS>
+                <li className='nav-Item'>
+                    {url==='/'? <LinkS to='team' smooth={true} className='nav-Links' onClick={closeMobileMenu}>
+                        Team
+                    </LinkS>:<Link to='/' smooth={true} className='nav-Links' onClick={closeMobileMenu}>
+                        Team
+                    </Link>}
                 </li> 
-                <li className='nav-item'>
-                    <LinkS to='contact' smooth={true} className='nav-links' onClick={closeMobileMenu}>
-                    Contact Us
-                    </LinkS>
+                <li className='nav-Item'>
+                     {url==='/'? <LinkS to='contact' smooth={true} className='nav-Links' onClick={closeMobileMenu}>
+                        Contact
+                    </LinkS>:<Link to='/' smooth={true} className='nav-Links' onClick={closeMobileMenu}>
+                       Contact
+                    </Link>}
                 </li> 
-                {/* <li className='nav-item'>
-                    <Link to='/signup' className='nav-links-mobile' onClick={closeMobileMenu}>
-                       Sign Up
+                <li className='nav-Item'>
+                    <Link to='/events' smooth={true} className='nav-Links' onClick={closeMobileMenu}>
+                    Events
                     </Link>
-                </li>  */}
+                </li> 
+                <li className='nav-Item'>
+                    <Link to='/survey' smooth={true} className='nav-Links' onClick={closeMobileMenu}>
+                    Survey
+                    </Link>
+                </li> 
+               
               </ul>
               </div>
           </nav>  

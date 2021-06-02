@@ -1,24 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 
-.navbar{
+.navBar{
 display:flex;
 justify-content: center;
 align-items: center;
 height:80px;
-padding: 15px 15px 0px 15px;
+padding: 15px 10px 0px 10px;
 background-color: black;
 }
 
-.navbar-container{
+.navBar-container{
     display:flex;
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 1500px;
+    max-width: 100%;
 }
 
-.navbar-logo {
+.navBar-logo {
     color: #fff;
     justify-self: start;
     cursor: pointer;
@@ -27,11 +27,16 @@ background-color: black;
     display: flex;
     align-items: center;
     font-family: 'Bebas Neue';
+    font-weight: bold;
+    
   }
-
-  .nav-menu {
+  .navBar-logo:hover{
+    text-decoration: none;
+    color:#fff;
+  }
+  .nav-Menu {
     display: grid;
-    grid-template-columns: repeat(4, auto);
+    grid-template-columns: repeat(5, auto);
     grid-gap: 10px;
     list-style: none;
     text-align: center;
@@ -39,33 +44,36 @@ background-color: black;
     justify-content: end;
     margin-right: 2rem;
   }
-  .nav-links {
-    color: #fff;
+  .nav-Links {
+    color: #fff !important;
     display: flex;
     align-items: center;
-    text-decoration: none;
+    text-decoration: none !important;
     padding: 0.5rem 1rem;
     height: 100%;
   }
-  .nav-links:hover {
-    border-bottom: 4px solid #fff;
-    transition: all 0.2s ease-out;
+  .nav-Links:hover {
+    border-bottom: 4px solid #fff !important;
+    transition: all 0.2s ease-out !important;
   }
   .fa-bars {
     color: #fff;
   }
-  .nav-links-mobile {
+  .nav-Links-mobile {
     display: none;
   }
-  .menu-icon {
+  .menu-Icon {
     display: none;
+  }
+  .acnav{
+    border-bottom: 4px solid #fff;
   }
 
 @media screen and (max-width:960px){
     .NavbarItems {
         position: relative;
       }
-    .nav-menu{
+    .nav-Menu{
         display:flex;
         flex-direction:column;
         width:100%;
@@ -80,7 +88,7 @@ background-color: black;
         position: relative;
       }
     
-      .nav-menu {
+      .nav-Menu {
         display: flex;
         flex-direction: column;
         width: 100%;
@@ -92,7 +100,7 @@ background-color: black;
         transition: all 0.5s ease;
       }
     
-      .nav-menu.active {
+      .nav-Menu.active {
         background: #000;
         left: 0;
         opacity: 1;
@@ -100,27 +108,27 @@ background-color: black;
         z-index: 1;
       }
     
-      .nav-links {
+      .nav-Links {
         text-align: center;
         padding: 2rem;
         width: 100%;
         display: table;
       }
     
-      .nav-links:hover {
+      .nav-Links:hover {
         background-color: #fff;
         color: #242424;
         border-radius: 0;
       }
     
-      .navbar-logo {
+      .navBar-logo {
         position: absolute;
         top: 0;
         left: 0;
         transform: translate(25%, 50%);
       }
     
-      .menu-icon {
+      .menu-Icon {
         display: block;
         position: absolute;
         top: 0;
@@ -135,7 +143,7 @@ background-color: black;
         font-size: 2rem;
       }
     
-      .nav-links-mobile {
+      .nav-Links-mobile {
         display: block;
         text-align: center;
         margin: 2rem auto;
@@ -150,7 +158,7 @@ background-color: black;
         transition: all 0.3s ease-out;
       }
     
-      .nav-links-mobile:hover {
+      .nav-Links-mobile:hover {
         background: #fff;
         color: #242424;
         transition: 250ms;
