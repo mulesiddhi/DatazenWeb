@@ -53,7 +53,7 @@ background-color: black;
     height: 100%;
   }
   .nav-Links:hover {
-    border-bottom: 4px solid #fff !important;
+    border-bottom: 2px solid #fff !important;
     transition: all 0.2s ease-out !important;
   }
   .fa-bars {

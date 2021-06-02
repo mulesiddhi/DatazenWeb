@@ -25,7 +25,7 @@ const HeroSection = () => {
                 buttonSize='btn--large'
                 path='/survey'
                 > 
-                   Take The Survey<i className='far fa-play-circle '/> 
+                   Take The Survey<i className='far fa-play-circle bg-white'/> 
                 </Button>
                
             </div>
