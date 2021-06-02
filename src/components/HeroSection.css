@@ -67,3 +67,8 @@ video{
         width:100%;
     }
   }
+
+  .slink{
+      text-decoration: none;
+      color:black
+  }
