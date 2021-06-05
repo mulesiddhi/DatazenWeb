@@ -45,12 +45,16 @@ const Form = () => (
     ))}
 
     {/* <Icon className="form-submit" icon={sendCircle} /> */}
-    <i className="fa fa-send Form-submit " ></i>
+    
+    {/* <i className="fa fa-send Form-submit " ></i> */}
+    <button className='form-input-btn Form-submit'
+                type='submit'>SEND</button>
 
     {/* <button className="form-submit" type="submit">
       Send message
     </button> */}
   </form>
+  
 )
 
 export default Form

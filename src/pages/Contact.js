@@ -1,6 +1,6 @@
 import ContactSection from '../components/ContactSection';
-import Footer from '../components/Footer';
 import Intro from '../components/Intro';
+import Map from '../components/Map';
 import Navbar from '../components/Navbar'
 import React from 'react'
 
@@ -10,6 +10,7 @@ const Contact = () => {
         <Navbar/>
         <Intro/>
         <ContactSection/>
+        <Map/>
         {/* <Footer/>   */}
         </>
     )

@@ -1,6 +1,7 @@
 import './contactsection.css'
 
 import Form from './ContactForm'
+import Info from './Info'
 import React from 'react'
 
 const ContactSection = () => {
@@ -8,6 +9,7 @@ const ContactSection = () => {
         <>
            <div className="contact-section">
                <Form/>
+               <Info/>
                </div>  
         </>
     )

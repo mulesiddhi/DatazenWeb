@@ -52,19 +52,28 @@ position: relative;
 .form-input-btn{
     display: block;
     width:100%;
-    background:var(--black);
-    color:white;
+    background-color: black;
+    color: var(--white);
     font-weight:700;
     border: none;
     padding:1rem;
     border-radius: 8px;
-    margin-bottom:50px;
-    font-size:0.75rem;
+    /* margin-bottom:50px; */
+    margin:20px;
+    font-size:0.85rem;
     text-transform: uppercase;
     letter-spacing: 0.5px;
 }
+@media screen and (min-width: 799px) {
+    .form-input-btn{
+width:90%;
+margin:0;
+    }
+}
+
 .form-input-btn:hover{
     cursor:pointer;
-    transform: scale(1.1);
+    /* transform: scale(1.1); */
+   transition: all 0.2s ease-out;
 }
   

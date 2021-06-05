@@ -39,10 +39,11 @@
   }
   
   .Form-submit {
-    justify-self: center;
+    justify-self: start;
     font-size: 2rem;
-    color: black;
+    
   }
+
   
   @media screen and (min-width: 799px) {
     .Form {
@@ -90,6 +91,7 @@
     .Form-submit {
       grid-area: submit;
       font-size: 25px;
+      justify-self: center;
     }
     
   }
