@@ -2,6 +2,7 @@ import './App.css'
 
 import { Route, BrowserRouter as Router, Switch } from 'react-router-dom';
 
+import Contact from './pages/Contact';
 import Event from './pages/Event';
 import Home from './pages/Home'
 import React from 'react'
@@ -17,6 +18,7 @@ function App() {
         <Route path='/signup' exact component={SignUp}  />
         <Route path='/survey' exact component={Survey}  />
         <Route path='/events' exact component={Event}  />
+        <Route path='/contact' exact component={Contact}  />
       </Switch>
     </Router>
   </>

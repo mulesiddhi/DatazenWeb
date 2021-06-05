@@ -60,12 +60,17 @@ function Navbar() {
                         Team
                     </Link>}
                 </li> 
-                <li className='nav-Item'>
+                {/* <li className='nav-Item'>
                      {url==='/'? <LinkS to='contact' smooth={true} className='nav-Links' onClick={closeMobileMenu}>
                         Contact
                     </LinkS>:<Link to='/' smooth={true} className='nav-Links' onClick={closeMobileMenu}>
                        Contact
                     </Link>}
+                </li>  */}
+                <li className='nav-Item'>
+                    <Link to='/contact' smooth={true} className='nav-Links' onClick={closeMobileMenu}>
+                    Contact Us
+                    </Link>
                 </li> 
                 <li className='nav-Item'>
                     <Link to='/events' smooth={true} className='nav-Links' onClick={closeMobileMenu}>

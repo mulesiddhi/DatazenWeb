@@ -1,0 +1,95 @@
+.Form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    padding: 20px;
+  }
+  
+  .Form-h2 {
+    margin: 0;
+    text-transform: uppercase;
+  }
+  
+  .Form-label {
+    margin: 10px 0;
+    text-align: left;
+    width: 100%;
+  }
+  
+  .Form-input,
+  .Form-textarea {
+    display: block;
+    margin-top: 5px;
+    font-size: 1rem;
+    width: calc(100% - 20px);
+    border:1px solid #c4c4c4;
+    border-radius: 8px;
+    padding: 10px;
+  }
+  
+  .Form-textarea {
+    height: 250px;
+  }
+  
+  .Form-textarea::placeholder {
+    font-family: 'Nunito Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    font-weight: 400;
+  }
+  
+  .Form-submit {
+    justify-self: center;
+    font-size: 2rem;
+    color: black;
+  }
+  
+  @media screen and (min-width: 799px) {
+    .Form {
+      display: grid;
+      grid-template-areas:
+        'header .'
+        'name message'
+        'tel message'
+        'email submit';
+      align-items: start;
+      align-content: space-between;
+      justify-content: unset;
+      gap: 0.5vw 1vw;
+      padding: 40px;
+    }
+  
+    .Form-h2 {
+      grid-area: header;
+      text-align: left;
+    }
+  
+    .Form-label {
+      margin: 0;
+    }
+  
+    #name {
+      grid-area: name;
+    }
+    #email {
+      grid-area: email;
+    }
+    #tel {
+      grid-area: tel;
+    }
+  
+    #message {
+      grid-area: message;
+      height: 100%;
+    }
+  
+    .Form-textarea {
+      height: 150px;
+    }
+  
+    .Form-submit {
+      grid-area: submit;
+      font-size: 25px;
+    }
+    
+  }
