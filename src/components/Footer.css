@@ -4,8 +4,8 @@
 
 .footer-con {
     padding: 4rem;
-    background-color: #000;
-    color:var(--primary) ; 
+    background-color: #fff;
+    color:#b7202e ; 
     display: flex;  
     justify-content: space-between;
     align-items:flex-start;

@@ -9,7 +9,7 @@
 
 
 .acontainer{
-    background-color: black;
+    background-color: #fff;
     min-height: 100vh;
   /* using flex because of better browser support */
   display: flex;
