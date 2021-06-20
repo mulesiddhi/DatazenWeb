@@ -15,7 +15,7 @@ function Navbar() {
     }
 
     const closeMobileMenu=()=>{
-        setClick(false);
+        setClick(false); 
     }
 
     // const showButton=()=>{
@@ -35,8 +35,8 @@ function Navbar() {
 
     return (
         <div>
-          {/* <nav className='navBar fixed-top'> */}
-          <nav className='navBar'>
+          <nav className='navBar fixed-top'>
+          {/* <nav className='navBar'> */}
               <div className='navBar-container'> 
               <Link to='/' className='navBar-logo'>
                 DataZen
@@ -54,10 +54,10 @@ function Navbar() {
                     </Link>}
                 </li>  
                 <li className='nav-Item'>
-                    {url==='/'? <LinkS to='team' smooth={true} className='nav-Links' onClick={closeMobileMenu}>
-                        Team
+                    {url==='/'? <LinkS to='events' smooth={true} className='nav-Links' onClick={closeMobileMenu}>
+                        Events
                     </LinkS>:<Link to='/' smooth={true} className='nav-Links' onClick={closeMobileMenu}>
-                        Team
+                        Events
                     </Link>}
                 </li> 
                 {/* <li className='nav-Item'>
@@ -73,8 +73,8 @@ function Navbar() {
                     </Link>
                 </li> 
                 <li className='nav-Item'>
-                    <Link to='/events' smooth={true} className='nav-Links' onClick={closeMobileMenu}>
-                    Events
+                    <Link to='/teams' smooth={true} className='nav-Links' onClick={closeMobileMenu}>
+                    Team
                     </Link>
                 </li> 
                 <li className='nav-Item'>

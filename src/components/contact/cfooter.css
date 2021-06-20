@@ -1,9 +1,9 @@
 .cfooter {
     display: flex;
     justify-content: flex-end;
-    background-color: rgb(212, 208, 208)
-    ;
-    color: var(--black);
+
+    background-color: white;
+    color: var(--red);
     padding-right: 10px;
     
   }
