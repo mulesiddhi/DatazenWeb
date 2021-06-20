@@ -5,17 +5,20 @@
     align-items: center;
     max-width: 100%;
     padding: 20px;
+    
   }
   
   .Form-h2 {
     margin: 0;
     text-transform: uppercase;
+    font-family: 'Fira Sans', sans-serif;
   }
   
   .Form-label {
     margin: 10px 0;
     text-align: left;
     width: 100%;
+    font-family: 'Fira Sans', sans-serif;
   }
   
   .Form-input,
@@ -27,6 +30,7 @@
     border:1px solid #c4c4c4;
     border-radius: 8px;
     padding: 10px;
+    font-family: 'Fira Sans', sans-serif;
   }
   
   .Form-textarea {

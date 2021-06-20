@@ -40,6 +40,7 @@ form input[type='password']{
     padding:1rem;
     margin-bottom:1.25rem;
     font-size:0.875rem;
+    font-family: 'Fira Sans', sans-serif;
 }
 label{
     display: block;
@@ -52,8 +53,9 @@ position: relative;
 .form-input-btn{
     display: block;
     width:100%;
-    background-color: black;
+    background-color:#b7202e;
     color: var(--white);
+    font-family: 'Fira Sans', sans-serif;
     font-weight:700;
     border: none;
     padding:1rem;

@@ -7,7 +7,7 @@ justify-content: center;
 align-items: center;
 height:80px;
 padding: 15px 10px 0px 10px;
-background-color: black;
+background-color: rgb(212, 208, 208);
 }
 
 .navBar-container{
@@ -19,14 +19,14 @@ background-color: black;
 }
 
 .navBar-logo {
-    color: #fff;
+    color: white;
     justify-self: start;
     cursor: pointer;
     text-decoration: none;
     font-size: 2.5rem;
     display: flex;
     align-items: center;
-    font-family: 'Bebas Neue';
+    font-family: 'Fira Sans', sans-serif;
     font-weight: bold;
     
   }
@@ -51,6 +51,8 @@ background-color: black;
     text-decoration: none !important;
     padding: 0.5rem 1rem;
     height: 100%;
+    font-family: 'Fira Sans', sans-serif;
+
   }
   .nav-Links:hover {
     border-bottom: 2px solid #fff !important;
@@ -101,7 +103,7 @@ background-color: black;
       }
     
       .nav-Menu.active {
-        background: #000;
+        background:#b7202e;
         left: 0;
         opacity: 1;
         transition: all 0.5s ease;
@@ -116,8 +118,8 @@ background-color: black;
       }
     
       .nav-Links:hover {
-        background-color: #fff;
-        color: #242424;
+        background-color: rgb(240, 46, 46);
+        color: white;
         border-radius: 0;
       }
     
@@ -139,8 +141,10 @@ background-color: black;
       }
     
       .fa-times {
-        color: #fff;
+        color: white;
         font-size: 2rem;
+        
+
       }
     
       .nav-Links-mobile {
