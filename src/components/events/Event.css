@@ -80,7 +80,7 @@
     border-radius: 0;
     color: black;
     letter-spacing: 0.05rem;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Fira Sans', sans-serif;
     box-shadow: 0 0 21px rgba(0, 0, 0, 0.27);
   }
   .card .txt {
@@ -94,7 +94,7 @@
   }
   .card .txt p {
     font-size: 0.7rem;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Fira Sans', sans-serif;
     letter-spacing: 0rem;
     margin-top: 33px;
     opacity: 0;
@@ -140,4 +140,6 @@
     color: #000;
     z-index: 0;
   }
-  
+  h1{
+    font-family: 'Marecellus';
+  }

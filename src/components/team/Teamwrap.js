@@ -5,7 +5,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 const Team = () => {
   return (
-    <>
+    <div>
+    <h1>CO-FOUNDER</h1>
       <Carousel>
         <Carousel.Item>
           <Card style={{ width: "18rem",height: "20rem", marginTop: "300px" }}>
@@ -46,6 +47,7 @@ const Team = () => {
           ></Card>
         </Carousel.Item>
       </Carousel>
+      <h1>ALUMNI</h1>
       <Carousel>
         <Carousel.Item>
           <Card
@@ -71,6 +73,7 @@ const Team = () => {
           ></Card>
         </Carousel.Item>
       </Carousel>
+      <h1>HEADS</h1>
       <Carousel>
         <Carousel.Item>
           <Card style={{ width: "18rem", marginTop: "170px" }}></Card>
@@ -126,6 +129,7 @@ const Team = () => {
           ></Card>
         </Carousel.Item>
       </Carousel>
+      <h1>TEAM</h1>
       <Carousel>
         <Carousel.Item>
           <Card style={{ width: "18rem", marginTop: "170px" }}></Card>
@@ -278,7 +282,7 @@ const Team = () => {
           ></Card>
         </Carousel.Item>
       </Carousel>
-    </>
+    </div>
   );
 };
 
