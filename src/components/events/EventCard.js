@@ -3,7 +3,7 @@ import React from 'react'
 const EventCard = (props) => {
     return (
         <div className="col-md-6 col-lg-4 column">
-      <div className="card gr-1">
+      <div className="teamcard gr-1">
         <div className="txt">
           <h1>{props.title}</h1>
           <p>{props.description}</p>

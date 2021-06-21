@@ -1,11 +1,11 @@
 :root{
-    --primary:#fff;
+    --primary:#fff !important;
 }
 
 .footer-con {
     padding: 4rem;
     background-color: #fff;
-    color:#b7202e ; 
+    color:#b7202e !important ; 
     display: flex;  
     justify-content: space-between;
     align-items:flex-start;
@@ -42,6 +42,10 @@
     font-size: 1.5em ;
     font-weight: bold;
     padding: 4px;
+    color:#b7202e;
+}
+.flinks i{
+    color:#b7202e;
 }
 .faddress{
     margin-bottom: 7px;

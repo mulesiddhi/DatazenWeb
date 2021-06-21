@@ -23,7 +23,7 @@ const Event = () => {
               </div>
         </div> 
         <div className={`upcomingE ${box==='past'?'d-none':''}`}>
-        <div class="container ">
+        <div class="container mt-0 ">
   <div class="row">
    <EventCard
     title='Podcast'

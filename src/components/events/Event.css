@@ -1,145 +1,150 @@
 .headerContainer{
-    border-top:black 1px solid;
+  border-top:black 1px solid;
 }
 .uEvents,.pEvents{
-    padding:20px;
-    flex-grow: 1;
-    padding-left: 200px;
-    cursor: pointer;
-    transition: 0s;
+  padding:20px;
+  flex-grow: 1;
+  padding-left: 200px;
+  cursor: pointer;
+  transition: 0s;
 }
 .eBorder{
-    border-bottom: 2px solid #b7202e ;
-    color: #b7202e;
+  border-bottom: 2px solid #b7202e ;
+  color: #b7202e;
 }
 .normalB{
-    border-bottom:black 1px solid;
+  border-bottom:black 1px solid;
 }
 .pastE{
-    text-align:center;
-    padding: 20px;
+  text-align:center;
+  padding: 20px;
 }
 @media screen and (max-width: 768px){
-    .uEvents,.pEvents{
-        padding:20px;
-        flex-grow: 1;
-        padding-left: 20px;
-    }
-    .uEvents{
-        border-bottom:black 1px solid;
-    }
+  .uEvents,.pEvents{
+      padding:20px;
+      flex-grow: 1;
+      padding-left: 20px;
   }
+  .uEvents{
+      border-bottom:black 1px solid;
+  }
+  .column{
+    margin-left:10px;
+  }
+}
 
-  @import url('https://fonts.googleapis.com/css?family=Oswald:300,400,500,700');
-  @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');
-  .gr-1 {
-    background: #b7202e;
-  }
-  .gr-2 {
-    background: #b7202e;
-  }
-  .gr-3 {
-    background: #b7202e;
-  }
-  * {
-    transition: 0.5s;
-  }
-  .h-100 {
-    height: 100vh !important;
-  }
-  .align-middle {
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
-  }
-  .column {
-    margin-top: 3rem;
-    padding-left: 3rem;
-  }
-  .column:hover {
-    padding-left: 0;
-  }
-  .column:hover .card .txt {
-    margin-left: 1rem;
-  }
-  .column:hover .card .txt h1, .column:hover .card .txt p {
-    color: white;
-    opacity: 1;
-  }
-  .column:hover a {
-    color: white;
-  }
-  .column:hover a:after {
-    width: 10%;
-  }
-  .card {
-    min-height: 170px;
-    margin: 0;
-    padding: 1.7rem 1.2rem;
-    border: none;
-    border-radius: 0;
-    color: black;
-    letter-spacing: 0.05rem;
-    font-family: 'Fira Sans', sans-serif;
-    box-shadow: 0 0 21px rgba(0, 0, 0, 0.27);
-  }
-  .card .txt {
-    margin-left: -3rem;
-    z-index: 1;
-  }
-  .card .txt h1 {
-    font-size: 1.9rem;
-    font-weight: 600;
-    text-transform: uppercase;
-  }
-  .card .txt p {
-    font-size: 0.7rem;
-    font-family: 'Fira Sans', sans-serif;
-    letter-spacing: 0rem;
-    margin-top: 33px;
-    opacity: 0;
-    color: white;
-  }
-  .card a {
-    z-index: 3;
-    font-size: 0.9rem;
-    font-weight: 600;
-    color: black;
-    margin-left: 1rem;
-    position: relative;
-    bottom: -0.5rem;
-    text-transform: uppercase;
-  }
-  .card a:after {
-    content: "";
-    display: inline-block;
-    height: 0.5em;
-    width: 0;
-    margin-right: -100%;
-    margin-left: 10px;
-    border-top: 1px solid white;
-    transition: 0.5s;
-  }
-  .card .ico-card {
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-  }
-  .card i {
-    position: relative;
-    right: -50%;
-    top: 60%;
-    font-size: 12rem;
-    line-height: 0;
-    opacity: 0.2;
-    color: #000;
-    z-index: 0;
-  }
-  h1{
-    font-family: 'Marecellus';
-  }
+
+@import url('https://fonts.googleapis.com/css?family=Oswald:300,400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');
+.gr-1 {
+  background: #b7202e !important;
+}
+.gr-2 {
+  background: #b7202e !important;
+}
+.gr-3 {
+  background: #b7202e !important;
+}
+* {
+  transition: 0.5s;
+}
+.h-100 {
+  height: 100vh !important;
+}
+.align-middle {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.column {
+  margin-top: 3rem;
+  padding-left: 3rem;
+}
+.column:hover {
+  padding-left: 0;
+}
+.column:hover .teamcard .txt {
+  margin-left: 1rem;
+}
+.column:hover .teamcard .txt h1, .column:hover .teamcard .txt p {
+  color: white;
+  opacity: 1;
+}
+.column:hover a {
+  color: white;
+}
+.column:hover a:after {
+  width: 10%;
+}
+.teamcard {
+  min-height: 170px;
+  margin: 0;
+  padding: 1.7rem 1.2rem;
+  border: none;
+  border-radius: 0;
+  color: black;
+  letter-spacing: 0.05rem;
+  font-family: 'Fira Sans', sans-serif;
+  box-shadow: 0 0 21px rgba(0, 0, 0, 0.27);
+}
+.teamcard .txt {
+  margin-left: -3rem;
+  z-index: 1;
+}
+.teamcard .txt h1 {
+  font-size: 1.5rem;
+  font-weight: 900 !important;
+  text-transform: uppercase;
+}
+.teamcard .txt p {
+  font-size: 0.7rem;
+  font-family: 'Fira Sans', sans-serif;
+  letter-spacing: 0rem;
+  margin-top: 33px;
+  opacity: 0;
+  color: white;
+}
+.teamcard a {
+  z-index: 3;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: black;
+  margin-left: 1rem;
+  position: relative;
+  bottom: -0.5rem;
+  text-transform: uppercase;
+}
+.teamcard a:after {
+  content: "";
+  display: inline-block;
+  height: 0.5em;
+  width: 0;
+  margin-right: -100%;
+  margin-left: 10px;
+  border-top: 1px solid white;
+  transition: 0.5s;
+}
+.teamcard .ico-card {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.teamcard i {
+  position: relative;
+  right: -46.5%;
+  top: 60%;
+  font-size: 12rem;
+  line-height: 0;
+  opacity: 0.2;
+  color: #000;
+  z-index: 0;
+}
+h1{
+  font-family: 'Marecellus';
+
+}
