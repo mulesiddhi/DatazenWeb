@@ -1,0 +1,4732 @@
+#candidate_profile_container label {
+    line-height: 23px;
+}
+.candidate-profile .tab_title {
+    padding: 20px 20px;
+}
+#gdpi_booked p {
+    font-family: FiraSans-Regular;
+    font-size: 16px;
+    color: #58595b;
+}
+#slot_capi label {
+    font-family: FiraSans-Regular;
+    position: relative;
+}
+.form-control {
+    font-family: FiraSans-Regular !important;
+}
+
+.margin_0 {
+    margin: 0;
+}
+.cusgender.markcusgender {
+    margin: 0;
+}
+
+select.form-control + .chosen-container.chosen-container-single .chosen-single {
+    height: 39px;
+}
+
+.uploadsection {
+    padding-bottom: 20px;
+}
+
+    .uploadsection p {
+        width: 100%;
+        float: left;
+        padding-left: 0;
+    }
+
+    .uploadsection .tab_title {
+        padding-left: 10px;
+        float: left;
+        padding-top: 0;
+        padding-right: 0;
+    }
+
+#personalDetails .gender.exam_detail_wrap {
+    margin: 20px 0px 10px;
+}
+
+    #personalDetails .gender.exam_detail_wrap .genderlabel.g1gender {
+        width: auto;
+        float: left;
+    }
+
+    #personalDetails .gender.exam_detail_wrap .genderadio {
+        width: 70%;
+        float: left;
+    }
+
+.genderlabel.g1gender {
+    padding-top: 0px;
+}
+
+.gender .custom_radio label {
+    margin-right: 0;
+}
+
+.coursetitle_wrap {
+    background: #f5f6f6;
+    width: 100%;
+    padding: 0;
+    margin: auto;
+    padding: 20px 20px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+    .coursetitle_wrap .coursetitle h5 span {
+        width: 50%;
+        float: left;
+        margin-bottom: 10px;
+        font-size: 18px;
+        color: #58595b;
+        font-family: FiraSans-Regular;
+        height: 27px;
+    }
+
+        .coursetitle_wrap .coursetitle h5 span em {
+            float: left;
+            margin: 0px 5px 0px 0px;
+            display: block;
+        }
+
+.lbl-border-left {
+    border-left: 1px solid #cecece;
+    padding-left: 30px;
+}
+
+.coursetitle_wrap #lblCourseName {
+    color: #b7202e;
+    font-family: Marcellus-Regular;
+}
+
+.content-header {
+    padding: 30px;
+    float: left;
+    width: 100%;
+}
+
+.coursetitle_wrap .coursetitle {
+    padding: 0px;
+    margin: 0;
+}
+
+    .coursetitle_wrap .coursetitle h5 {
+        position: relative;
+        margin: 0px;
+        padding: 0px 0px 0px 5px;
+        font-family: FiraSans-Regular;
+        font-size: 22px;
+        color: #D0D2D2;
+    }
+
+/*.coursetitle_wrap .coursetitle h5:before {
+	content: "\f19d";
+	font-family: FontAwesome;
+	position: absolute;
+	top: 0;
+	font-size: 20px;
+	left: 0;
+	text-align: center;
+	border-radius: 50%;
+	color: #162443;
+}*/
+.address_wrapper h2 {
+    color: #b7202e;
+    font-size: 20px;
+}
+
+.address_wrapper hr {
+    border-top: 1px solid rgba(0, 0, 0, 0);
+}
+
+.eduDetail_wrap {
+    margin: 0px 0px 30px;
+    /*border: solid 1px rgba(112, 112, 112, 0.2);*/
+    box-shadow: none;
+    background: #fff;
+float:left;
+    width: 100%;
+}
+
+    .eduDetail_wrap .container {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+/*.tab_title_wrap {
+	border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+}*/
+
+.tab_title {
+    padding: 20px 30px;
+}
+
+    .tab_title .clear {
+        clear: both;
+        display: inline;
+    }
+
+    .tab_title h5 {
+        color: #162443;
+        font-size: 22px;
+        font-family: FiraSans-Regular;
+    }
+
+        .tab_title h5 span {
+            color: #d73c3a;
+            display: inline-block;
+            vertical-align: top;
+        }
+
+/*.accordion_wrap {
+	padding: 30px;
+}
+*/
+
+/*.accordion_main:hover {
+	box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.4);
+}*/
+.accordion_main {
+    background-color: #f5f6f6;
+    margin: 0px 0px 30px;
+    /*box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);*/
+    float: left;
+    width: 100%;
+}
+
+
+    .accordion_main button.collapsed {
+        display: flex;
+        position: relative;
+        justify-content: flex-start;
+        background-color: transparent;
+        flex-wrap: wrap;
+        align-items: center;
+        width: 100%;
+        padding: 20px 30px;
+        text-align: left;
+        color: #000000;
+        border: 0px;
+        border-radius: 0px;
+        /*border-bottom: solid 1px #e8e8e8;*/
+    }
+
+    .accordion_main button {
+        display: flex;
+        position: relative;
+        justify-content: flex-start;
+        background-color: transparent;
+        flex-wrap: wrap;
+        align-items: center;
+        width: 100%;
+        padding: 20px 30px;
+        text-align: left;
+        border: 0px;
+        border-radius: 0px;
+        color: #b7202e;
+    }
+
+        .accordion_main button:focus {
+            background-color: transparent;
+        }
+
+        .accordion_main button:active {
+            background-color: transparent;
+        }
+
+        .accordion_main button:hover {
+            background-color: transparent;
+        }
+
+        .accordion_main button b {
+            font-size: 20px;
+            font-weight: normal;
+            line-height: 1.11;
+            color: #162443;
+            font-family: FiraSans-Regular;
+        }
+
+        .accordion_main button em {
+            margin: 0px 0px 0px 40px;
+            display: block;
+            border-radius: 3px;
+            font-style: normal;
+            border: solid 1px #005baa;
+            font-family: FiraSans-Medium;
+            font-size: 13px;
+            font-weight: 600;
+            line-height: 1.23;
+            color: #005baa;
+            padding: 6px 25px;
+        }
+
+        .accordion_main button b span {
+            color: #d73c3a;
+            display: inline-block;
+            vertical-align: top;
+        }
+
+        .accordion_main button:after {
+            content: "\f107";
+            line-height: 0.7;
+            font-family: FontAwesome;
+            position: absolute;
+            top: 25px;
+            font-size: 20px;
+            right: 30px;
+            text-align: center;
+            /* border-radius: 50%; */
+            background-image: url(../img/plus.svg);
+            color: transparent;
+            background-repeat: no-repeat;
+        }
+
+        .accordion_main button[aria-expanded="true"]:after {
+            content: "\f106";
+            background-image: url(../img/minus.svg);
+            color: transparent;
+            background-repeat: no-repeat;
+        }
+
+    .accordion_main .content_wrap {
+        padding: 20px 30px;
+        float: left;
+        width: 100%;
+    }
+
+    .accordion_main.alt .content_wrap {
+        padding: 20px 15px 40px; /*padding: 20px 3px 20px;*/
+        padding-left: 0;
+        padding-top: 0;
+    }
+
+        .accordion_main.alt .content_wrap .exam_detail_wrap.alt h3 {
+            font-family: FiraSans-Medium;
+            font-size: 18px;
+            font-weight: normal;
+            line-height: 1.21;
+            color: rgba(22, 36, 67, 0.7);
+            margin-top: 0;
+        }
+
+        .accordion_main.alt .content_wrap .exam_detail_wrap.alt h6 {
+            margin: 0;
+        }
+
+    .accordion_main .content_wrap form ul {
+        list-style: none;
+        padding: 0;
+    }
+
+.radio_custom_wrap {
+    list-style: none;
+    padding: 0px 15px;
+}
+
+.radio_custom_wrap {
+    display: flex;
+    flex-wrap: wrap; /*align-items: center;*/
+    justify-content: flex-start;
+}
+
+.source .card.exam_detail_wrap {
+    margin-bottom: 30px;
+}
+
+.radio_custom_wrap h6 {
+    margin: 0;
+    padding: 0px 30px 0px 0px;
+    font-family: FiraSans-Medium;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.19;
+    color: rgba(22, 36, 67, 0.7);
+}
+
+.radio_custom_wrap label {
+    opacity: 1;
+    font-family: FiraSans-Medium;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.19;
+    color: rgba(22, 36, 67, 0.7);
+}
+
+.radio_custom_wrap input, .radio_custom_wrap select {
+    background-color: #ffffff;
+    border-radius: 2px;
+    border: solid 1px #e8e8e8;
+    height: 37px;
+    font-size: 16px;
+    font-family: FiraSans-Medium;
+    font-weight: 600;
+    line-height: 1.19;
+    color: #162443;
+}
+
+    .radio_custom_wrap input:focus, .radio_custom_wrap select:focus {
+        border: 1px solid rgba(22, 36, 67, 1);
+    }
+
+    .radio_custom_wrap select option:disabled {
+        color: rgba(22, 36, 67, 0.5);
+    }
+
+::-webkit-input-placeholder {
+    font-family: FiraSans-Regular;
+    font-size: 16px;
+    color: #58595b;
+    opacity: 1;
+}
+
+::-moz-placeholder {
+    font-family: FiraSans-Regular;
+    font-size: 16px;
+    color: #58595b;
+    opacity: 1;
+}
+
+:-ms-input-placeholder {
+    font-family: FiraSans-Regular;
+    font-size: 16px;
+    color: #58595b;
+    opacity: 1;
+}
+
+:-moz-placeholder {
+    font-family: FiraSans-Regular;
+    font-size: 16px;
+    color: #58595b;
+    opacity: 1;
+}
+
+.exam_detail_wrap {
+    padding: 0px;
+    margin: 0px 0px 30px;
+    float: left;
+    width: 100%;
+}
+
+    .exam_detail_wrap h6 {
+        font-family: FiraSans-Medium;
+        font-size: 18px;
+        font-weight: normal;
+        line-height: 1.21;
+        color: rgba(22, 36, 67, 0.7);
+        margin: 0 0px;
+        opacity: 1;
+    }
+
+.workExp_title h3, .achivement h3 {
+    font-family: FiraSans-Medium;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 1.21;
+    color: rgba(22, 36, 67, 0.7);
+    margin-top: 0;
+}
+
+#entranceExamControlsContainer {
+    margin: 0 30px;
+    padding-bottom: 15px;
+}
+
+    #entranceExamControlsContainer .hidden {
+        display: none;
+    }
+
+.exam_detail_form {
+    padding: 30px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    position: relative;
+    position: relative;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+}
+
+button.close_btn {
+    font-size: 18px;
+    z-index: 1;
+    font-weight: 100;
+    color: #D73C3A;
+    opacity: 1;
+    line-height: 1;
+    padding: 0px;
+    margin: 0;
+    position: absolute;
+    right: 15px;
+    border: 0px;
+    width: auto;
+    top: 15px;
+    opacity: 0.8;
+}
+
+.exam_detail_form ul, .content_wrap ul {
+    padding: 0;
+    list-style: none;
+}
+
+.exam_detail_form h5 {
+    color: #162443;
+    font-family: FiraSans-Regular;
+    font-size: 22px;
+    line-height: 1.21;
+    margin: 0px 0px 25px;
+}
+
+    .exam_detail_form h5 small {
+        font-size: 14px;
+        padding-left: 22px;
+    }
+
+.exam_detail_form ul li label small {
+    padding-left: 20px;
+}
+
+.exam_detail_wrap input[type="checkbox"] {
+    padding: 0;
+    height: initial;
+    width: initial;
+    margin-bottom: 0;
+    display: none;
+    cursor: pointer;
+}
+
+.exam_detail_wrap label {
+    position: relative;
+    opacity: 1;
+    font-family: FiraSans-Regular;
+    margin: 0px;
+    padding-left: 24px;
+    position: relative;
+    font-size: 14px;
+    font-weight: 300;
+    color: rgba(102, 102, 102, 0.6);
+    line-height: 29px;
+    cursor: pointer;
+    color: rgba(22, 36, 67, 1);
+    color: #58595b;
+}
+
+    .exam_detail_wrap label:before {
+        content: '';
+        -webkit-appearance: none;
+        background-color: transparent;
+        border-radius: 2px;
+        border: 1px solid rgba(102, 102, 102, 0.6);
+        height: 17px;
+        width: 17px;
+        display: inline-block;
+        position: absolute;
+        top: 5px;
+        left: 0;
+        vertical-align: middle;
+        cursor: pointer;
+        margin-right: 5px;
+        border: 1px solid rgba(22, 36, 67, 1);
+        border: solid 1px #b7202e;
+    }
+
+.total_exp h6 {
+    font-size: 18px;
+    color: #a12023;
+    line-height: 1.46;
+}
+
+    .total_exp h6 span {
+        font-size: 18px;
+        color: #a12023;
+        line-height: 1.46;
+    }
+
+.exam_detail_wrap.currentlyWork_cbWrap {
+    margin: 0;
+}
+
+.exam_detail_wrap.alt label:before {
+    display: none;
+}
+
+.exam_detail_wrap.alt label {
+    line-height: 1.65;
+}
+
+    .exam_detail_wrap.alt label span {
+        top: 4px;
+        top: 0px;
+    }
+
+.exam_detail_wrap input[type="checkbox"]:checked + label:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 7.5px;
+    left: 5.5px;
+    width: 6px;
+    height: 9px;
+    border: solid #b7202e;
+    border-width: 0 1.5px 1.5px 0;
+    transform: rotate(45deg);
+}
+
+.exam_detail_wrap input[type="checkbox"]:checked + label {
+    color: rgba(22, 36, 67, 1);
+    font-family: FiraSans-Regular;
+    font-family: FiraSans-Regular;
+    font-size: 14px;
+    color: #58595b;
+}
+
+    .exam_detail_wrap input[type="checkbox"]:checked + label:before {
+        border: solid 1px #b7202e;
+    }
+
+.exam_detail_wrap .form-check-inline {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-left: 0;
+    margin-right: 20px;
+}
+
+.custom_radio {
+    position: relative;
+}
+
+    .custom_radio input {
+        position: absolute;
+        opacity: 0;
+        cursor: pointer;
+        left: 0;
+        top: 0;
+    }
+
+    .custom_radio label span {
+        background-color: #ffffff;
+        border: 1px solid rgba(102, 102, 102, 0.6);
+        position: absolute;
+        top: 1px;
+        left: 0;
+        height: 17px;
+        width: 17px;
+        border-radius: 50%;
+    }
+
+        .custom_radio label span:before {
+            content: "";
+            display: none;
+            -webkit-transition: .3s ease-in-out;
+            transition: .3s ease-in-out;
+            top: -7px;
+            left: -7px;
+            width: 29px;
+            height: 29px;
+            border-radius: 50%;
+            position: absolute;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            background-color: rgba(0, 0, 0, 0.05);
+        }
+
+        .custom_radio label span:hover:before {
+            display: block;
+        }
+
+        .custom_radio label span:after {
+            content: "";
+            display: block;
+            top: 1.8px;
+            left: 2px;
+            width: 11px;
+            height: 11px;
+            border-radius: 50%;
+            position: absolute;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+
+    .custom_radio input:checked + label {
+        /*color: rgba(22, 36, 67, 1)*/
+    }
+
+        .custom_radio input:checked + label span {
+            border: 1px solid #b7202e;
+        }
+
+            .custom_radio input:checked + label span:after {
+                background-color: #b7202e;
+            }
+
+    .custom_radio label {
+        padding-left: 25px;
+        margin-right: 25px;
+        margin-bottom: 0px;
+        font-family: FiraSans-Regular;
+        color: #58595b;
+        font-size: 16px;
+        font-weight: normal;
+        line-height: 20px;
+        width: 100%;
+        opacity: 1;
+    }
+
+.Entrance_exam_wrap .exam_detail_wrap.alt .custom_radio label {
+    line-height: 19px;
+}
+
+.set-radio {
+    margin-top: 20px;
+}
+
+.accordion_main.alt button:after {
+    display: none;
+}
+
+.accordion_main.alt {
+    background-color: #ffffff;
+    float: left;
+    width: 100%;
+    border: solid 1px rgba(112, 112, 112, 0.2);
+}
+
+.note_wrap {
+    margin: 0px 0px 30px;
+    float: left;
+width:100%;
+}
+
+ 
+.fin-input{    margin-top: -7px;}
+#modalInfo .form-check{
+float: left;
+    padding-left: 40px;
+    font-family: 'FiraSans-Regular';
+    position: relative;
+    top: 3px;
+    line-height: 21px;}
+#modalInfo .btnprev{right: 20px;
+    position: relative;}
+
+
+.note_main {
+    box-shadow: none;
+    border: 1px solid #ddd;
+    background-color: #ffffff;
+    width: 100%;
+    position: relative;
+    border-left: 40px solid #eeefef;
+    padding: 20px 35px;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: small;
+    display: inline-block;
+}
+
+    .note_main:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        border: 10px solid transparent;
+        border-left: 10px solid #eeefef;
+        top: calc(50% - 7px);
+    }
+
+    .note_main h3 {
+        font-family: Marcellus-Regular;
+        font-size: 22px;
+        font-weight: 400;
+        text-align: left;
+        color: #b7202e;
+        position: absolute;
+        top: 62%;
+        left: 0;
+        margin-left: -32px;
+        -webkit-transform: rotate(270deg);
+        -moz-transform: rotate(270deg);
+        -ms-transform: rotate(270deg);
+        -o-transform: rotate(270deg);
+        transform: rotate(270deg);
+        -webkit-transform-origin: 0 0;
+        -moz-transform-origin: 0 0;
+        -ms-transform-origin: 0 0;
+        -o-transform-origin: 0 0;
+        transform-origin: 0 0;
+    }
+
+    .note_main .content {
+        min-height: inherit;
+        height: inherit;
+        padding: 0px;
+    }
+
+        .note_main .content h6 {
+            font-family: FiraSans-Medium;
+            line-height: 1.38;
+            font-size: 16px;
+            font-weight: 600;
+            text-align: left;
+            color: #162443;
+            padding: 0;
+            margin: 0px 0px 15px;
+        }
+
+        .note_main .content ul {
+            padding: 0px 0px 0px 20px;
+        }
+
+            .note_main .content ul li:last-child {
+                margin-bottom: 0px;
+            }
+
+
+            .note_main .content ul li {
+                font-family: FiraSans-Regular;
+                font-size: 14px;
+                font-weight: 300;
+                text-align: left;
+                color: #333333;
+                line-height: 22px;
+                padding: 0;
+                margin: 0px 0px 10px;
+                list-style-type: disc;
+                padding-left: 7px;
+            }
+
+     .note_main .content ol li{
+    	font-family: FiraSans-Regular;
+    	font-size: 14px;
+    	font-weight: 300;
+    	text-align: left;
+	color: #333333;
+    	line-height: 22px;
+    	padding: 0;
+    	margin: 0px 0px 10px;
+        padding-left: 7px;
+        }
+
+div#notes_container {
+    font-family: FiraSans-Regular;
+    font-size: 14px;
+}
+
+    div#notes_container ol {
+        list-style: disc;
+        line-height: 20px;
+    }
+
+}
+
+div#notes_container ol li {
+    padding-left: 5px;
+}
+
+.note_main .content ul li span {
+    color: #d73c3a;
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+
+.workExp_title h5 {
+    font-family: FiraSans-Regular;
+    margin: 0px;
+    font-size: 22px;
+    font-weight: normal;
+    line-height: 1.76;
+    color: #162443;
+}
+
+.workExp_title .btnprev {
+    margin: 0px;
+}
+
+    .workExp_title .btnprev button {
+        margin: 0px;
+    }
+
+        .workExp_title .btnprev button:hover {
+            background: #58595b;
+            border: none;
+            margin: 0px;
+        }
+
+/*.workExp_title .btnprev button:focus {
+	color: #005baa;
+	border: 1px solid #005baa;
+}*/
+
+.exam_detail_form ul li .form-group .gj-datepicker {
+    width: 100%;
+    margin: 0px 0px 0px;
+}
+
+    .exam_detail_form ul li .form-group .gj-datepicker input {
+        padding: 0px 45px 0px 10px;
+        width: 100%;
+    }
+
+    .exam_detail_form ul li .form-group .gj-datepicker span {
+        display: block;
+        position: absolute;
+        z-index: 2;
+        right: 0;
+    }
+
+        .exam_detail_form ul li .form-group .gj-datepicker span button {
+            padding: 16px;
+            top: 0px;
+            opacity: 0.5;
+            right: 15%;
+            background: #e8e8e8bd;
+            width: 40px;
+            height: 34px;
+            text-align: center;
+            line-height: 37px;
+            font-size: 18px;
+            right: 0;
+        }
+
+            .exam_detail_form ul li .form-group .gj-datepicker span button i {
+                font-size: 18px;
+                color: rgba(0, 0, 0, .87);
+            }
+
+label span {
+    color: #d73c3a;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.program_select_wrap {
+    background-color: #f9fbfc;
+    min-height: 100vh;
+}
+
+.profile_wrap {
+    border-bottom: 1px solid #ddd;
+}
+
+    .profile_wrap .profile {
+        padding: 15px;
+        text-align: center;
+    }
+
+        .profile_wrap .profile img {
+            margin: 0 auto 15px;
+            border-radius: 50%;
+        }
+
+        .profile_wrap .profile figcaption {
+            font-family: FiraSans-Medium;
+            font-size: 24px;
+            font-weight: 600;
+            line-height: 1.21;
+            color: #162443;
+            text-transform: capitalize;
+        }
+
+    .profile_wrap .link_list ul {
+        padding: 0px;
+        list-style: none;
+    }
+
+        .profile_wrap .link_list ul li {
+            padding: 25px 30px;
+            border-bottom: 1px solid #ededed;
+            position: relative;
+        }
+
+            .profile_wrap .link_list ul li:last-child {
+                border-bottom: 0px;
+            }
+
+            .profile_wrap .link_list ul li a {
+                position: relative;
+                display: inline-block;
+                vertical-align: top;
+                padding: 0px 20px 0px 21px;
+                font-family: FiraSans-Medium;
+                font-size: 18px;
+                font-weight: 600;
+                line-height: 1.39;
+                color: #005baa;
+            }
+
+            .profile_wrap .link_list ul li:hover a {
+                text-decoration: underline;
+            }
+
+            .profile_wrap .link_list ul li a:before {
+                content: "";
+                position: absolute;
+                top: 8px;
+                left: 0px;
+                border-radius: 50%;
+                width: 6px;
+                height: 6px;
+                background-color: #162443;
+                opacity: 0.3;
+            }
+
+            .profile_wrap .link_list ul li:hover a:before {
+                opacity: 1 !important;
+            }
+
+            .profile_wrap .link_list ul li a:after {
+                content: "\f105";
+                -webkit-transition: .3s ease-in-out;
+                transition: .3s ease-in-out;
+                font-family: FontAwesome;
+                position: absolute;
+                top: 2px;
+                right: 5px;
+                width: 6.5px;
+                height: 18px;
+                line-height: 1;
+            }
+
+            .profile_wrap .link_list ul li:hover a:after {
+                right: 0px;
+            }
+
+.forn_status_wrap {
+    background-color: #f9fbfc;
+    min-height: 100vh;
+    padding: 30px;
+}
+
+.forn_status_main {
+    background-color: #ffffff;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+}
+
+    .forn_status_main .title {
+        padding: 20px 30px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+    }
+
+        .forn_status_main .title h5 {
+            font-family: FiraSans-Medium;
+            margin: 0px;
+            font-size: 22px;
+            font-weight: 600;
+            line-height: 1.11;
+            color: #162443;
+        }
+
+    .forn_status_main .body ul {
+        padding: 0px;
+        list-style: none;
+    }
+
+        .forn_status_main .body ul li {
+            padding: 20px 15px 15px 15px;
+            border-bottom: 1px solid #ededed;
+        }
+
+            .forn_status_main .body ul li .course_type .time_box {
+                padding: 0px;
+            }
+
+                .forn_status_main .body ul li .course_type .time_box h4:nth-child(1) {
+                    padding-left: 30px;
+                }
+
+            .forn_status_main .body ul li .btnprev button {
+                margin: 0px 0px 10px;
+            }
+
+            .forn_status_main .body ul li .course_type {
+                padding: 0px 0px 0px 0px;
+                position: relative;
+                margin: 0px 0px 20px;
+            }
+                /*.forn_status_main .body ul li .course_type:before {
+	content: "";
+	height: 55px;
+	width: 55px;
+	position: absolute;
+	left: 40px;
+	top: 0;
+	background-image: none;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	content: "\f19d";
+	font-family: FontAwesome;
+	font-size: 20px;
+}
+*/
+                .forn_status_main .body ul li .course_type h5 {
+                    font-family: FiraSans-Regular;
+                    font-size: 24px;
+                    /* font-size: 22px; */
+                    font-weight: normal;
+                    margin: 0px 0px 10px;
+                    line-height: 1.18;
+                    color: #a12023;
+                    color: #162443;
+                }
+
+                .forn_status_main .body ul li .course_type a {
+                    position: relative;
+                    display: inline-block;
+                    vertical-align: top;
+                    padding: 0px 20px 0px 0px;
+                    font-family: FiraSans-Regular;
+                    font-size: 18px;
+                    font-weight: normal;
+                    line-height: 1.39;
+                    color: #005baa;
+                }
+
+                    .forn_status_main .body ul li .course_type a:after {
+                        content: "\f105";
+                        -webkit-transition: .3s ease-in-out;
+                        transition: .3s ease-in-out;
+                        font-family: FontAwesome;
+                        position: absolute;
+                        top: 3px;
+                        right: 5px;
+                        width: 6.5px;
+                        height: 18px;
+                        line-height: 1;
+                        content: none;
+                    }
+
+                    .forn_status_main .body ul li .course_type a:hover:after {
+                        right: 0px;
+                    }
+
+                    .forn_status_main .body ul li .course_type a:hover {
+                        text-decoration: underline;
+                    }
+
+            .forn_status_main .body ul li .cust_progress {
+                height: 3px;
+                width: 100%;
+                margin-bottom: 40px;
+                background-color: rgba(22, 36, 67, 0.25);
+                position: relative;
+            }
+
+                .forn_status_main .body ul li .cust_progress .cust_progressBar {
+                    height: 3px;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    background-color: rgba(22, 36, 67, 1);
+                    position: relative;
+                }
+
+                .forn_status_main .body ul li .cust_progress.full .cust_progressBar {
+                    background-color: #3ec500;
+                }
+
+                .forn_status_main .body ul li .cust_progress i {
+                    width: 40px;
+                    height: 40px;
+                    display: block;
+                    text-align: center;
+                    line-height: 40px;
+                    position: absolute;
+                    top: -19px;
+                    border-radius: 50%;
+                    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16);
+                    background-color: #f8f8f8;
+                }
+
+                .forn_status_main .body ul li .cust_progress.full i {
+                    background-color: #3ec500;
+                    color: #ffffff;
+                }
+
+    .forn_status_main .body .btnprev {
+        margin: 35px 0px 20px 0;
+    }
+
+
+
+/*.payForm_wrap ul li select {
+	font-family: FiraSans-Medium;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 1.19;
+	color: #162443;
+}
+
+.payForm_wrap ul li select option {
+	font-family: FiraSans-Medium;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 1.19;
+	color: #162443;
+}*/
+
+.payForm_wrap ul li .row .form-group { /*display: inline-block; width: 100%; margin: 0px 0px 20px; */
+}
+
+    .payForm_wrap ul li .row .form-group label { /*display: inline-block; vertical-align: top; font-family: 'ProximaNova-Regular', sans-serif; color: #162443; font-size: 16px; opacity: 0.7; font-weight: normal; padding: 0; margin: 0px 0px 10px;*/
+    }
+
+    .payForm_wrap ul li .row .form-group input { /*display: inline-block; vertical-align: top; width: calc(100% - 80px); float: right;*/
+        width: 80%;
+    }
+
+.payment_cont {
+    border-left: 1px solid #ededed;
+    padding-left: 35px;
+}
+
+    .payment_cont h5 {
+        font-family: FiraSans-Medium;
+        font-size: 22px;
+        line-height: 1.21;
+        color: rgba(22, 36, 67, 0.7);
+    }
+
+    .payment_cont h6 {
+        font-family: FiraSans-Medium;
+        font-size: 18px;
+        line-height: 1.39;
+        color: rgba(22, 36, 67, 0.7);
+    }
+
+        .payment_cont h6 span {
+            font-family: FiraSans-Medium;
+            font-size: 32px;
+            display: inline-block;
+            vertical-align: middle;
+            font-weight: 600;
+            line-height: 1.2;
+            color: #a12023;
+        }
+
+input.form-control:focus {
+    border: solid 1px rgba(22, 36, 67, 0.8) !important;
+    box-shadow: none;
+    outline: none;
+    box-shadow: none;
+}
+
+.form input.form-control:focus {
+    box-shadow: none;
+}
+
+.has-success .form-control:focus {
+    border: 1px solid #005baa;
+    border-color: #005baa;
+    box-shadow: inset 0 -1px #005baa;
+}
+
+.has-success .form-control {
+    border-color: #e8e8e8;
+    box-shadow: none;
+    background-color: #ffffff;
+}
+
+.forgotpopup p {
+    font-family: FiraSans-Regular;
+    padding: 20px 25px;
+    line-height: 22px;
+}
+
+select {
+    -webkit-appearance: none;
+    padding-right: 40px !important;
+    position: relative;
+    background-image: url(../img/dd-arrow.svg) !important;
+    background-size: 10px 6px;
+    background-repeat: no-repeat;
+    background-position: center right 15px;
+}
+
+.chosen-container-single .chosen-single div {
+    width: 40px;
+}
+
+    .chosen-container-single .chosen-single div b {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        -ms-appearance: none;
+        -o-appearance: none;
+        appearance: none;
+        position: relative;
+        background-image: url(../img/dd-arrow.svg) !important;
+        background-size: 10px 6px !important;
+        background-repeat: no-repeat;
+        background-position: center center !important;
+    }
+
+select.form-control + .chosen-container.chosen-container-single .chosen-single div {
+    top: 0;
+    right: 0;
+}
+
+.chosen-container-single.chosen-with-drop .chosen-single div b {
+    transform: rotate(180deg);
+}
+
+select.form-control + .chosen-container .chosen-search input[type=text]:focus {
+    border: 1px solid rgba(22, 36, 67, 1);
+    border-color: rgba(22, 36, 67, 1);
+    box-shadow: none;
+}
+
+.btnprev .prev:hover {
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+}
+
+li.form-group .form-group {
+    margin: 0px;
+}
+
+select.form-control + .chosen-container.chosen-container-single:focus {
+    border: 1px solid #005baa !important;
+    border-color: #005baa !important;
+    box-shadow: inset 0 -1px #005baa !important;
+}
+
+select.form-control + .chosen-container.chosen-container-single .chosen-single:focus {
+    border: 1px solid #005baa !important;
+    border-color: #005baa !important;
+    box-shadow: inset 0 -1px #005baa !important;
+}
+
+/*changes */
+.alert.fade {
+    padding: 10px;
+    font-family: ProximaNova-Semibold;
+    font-size: 18px;
+    color: #fff;
+    padding: 15px 35px !important;
+    margin: 0px 0px 20px 0px;
+    float: left;
+    width: 100%;
+    border-radius: 4px;
+    border: solid 1px rgba(52, 120, 58, 0.45);
+    background-color: #fcfff5;
+    color: #162443 !important;
+}
+
+.alert button span {
+    color: #fff;
+    padding: 15px 15px 15px 15px !important;
+}
+
+.alert {
+    clear: both;
+    font-family: FiraSans-Regular;
+}
+
+    .alert.process {
+        border: solid 1px rgba(209, 117, 45, 0.45) !important;
+        background-color: #fffaf3 !important;
+    }
+
+    .alert.warning {
+        border: solid 1px rgba(161, 32, 35, 0.45) !important;
+        background-color: #fff6f6 !important;
+    }
+
+    .alert img {
+        padding: 0px 15px 0px 0px;
+    }
+
+/*.alert-success {
+	background: #005baa !important;
+}*/
+
+.box_wrap {
+    padding: 0px 30px 0px 30px;
+}
+
+.forn_status_main .body ul li .course_type h5 {
+    margin: 0px 0px 10px 0px;
+    border-right: 1px solid #ddd;
+    margin-bottom: 20px;
+    border-right: 1px solid #cecece;
+}
+
+.steps span.circle {
+    background: url(../img/chk-down.png);
+    background-size: cover;
+    display: block;
+    float: left;
+    border-radius: 0px;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 30px 0px 0px;
+    font-family: ProximaNova-Semibold;
+    font-size: 20px;
+    color: #b4b9c4;
+    /* border: 2px solid #162443; */
+    text-align: center;
+    position: relative;
+    padding: 9px 0px 0px 0px;
+    padding: 5px 0px 0px 0px;
+    left: 25px;
+    width: 31px;
+    height: 33px;
+    font-family: Roboto-Regular;
+    font-size: 20px;
+    margin-top: 7px;
+    background-size: 30px;
+    background-repeat: no-repeat;
+}
+
+ul.steps li {
+    width: 100%;
+    float: left;
+}
+
+    ul.steps li .labels {
+    }
+
+.steps a {
+    float: left;
+    display: block;
+}
+
+.forn_status_main ul.steps li {
+    border: none;
+    padding: 0px 0px 0px 0px;
+    position: relative;
+    margin: 0px 0px 80px 0px;
+    margin: 0px 0px 30px 0px;
+}
+
+.steps .labels {
+    font-family: FiraSans-Regular;
+    font-size: 20px;
+    color: #162443;
+    padding: 0px 0px 0px 0px;
+    min-height: 40px;
+    opacity: 0.7;
+}
+
+ul.steps li h6.labels {
+    margin-top: 10px;
+}
+
+.steps .dates {
+    font-family: ProximaNova-Semibold;
+    font-size: 16px;
+    color: #162443;
+    text-align: left;
+}
+
+    .steps .dates span {
+        color: #162443;
+    }
+
+.forn_status_main .body ul li .course_type a.link_btn {
+    transition: all ease 0.5s;
+    font-family: FiraSans-Medium;
+    color: #58595b;
+    border-radius: 0;
+    /* background-color: transparent; */
+    height: 40px;
+    line-height: 40px;
+    padding: 0px 15px;
+    min-width: 120px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: FiraSans-Medium;
+    border: 1px solid #58595b;
+}
+
+.course_type .completed a.link_btn {
+    color: #fff !important;
+}
+
+.forn_status_main .body ul li .course_type a.link_btn:hover {
+    border: 1px solid #b7202e;
+    color: #b7202e;
+}
+
+.forn_status_main .body ul li .course_type a.status_btn {
+    font-family: Proxima-Nova-Bold;
+    font-size: 16px;
+    color: #d73c3a;
+    border-radius: 3px;
+    background-color: #fff;
+    height: 30px;
+    line-height: 30px;
+    padding: 6px 0px;
+    min-width: 110px;
+    text-align: center;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    border: solid 0px #d73c3a;
+    font-family: FiraSans-Regular;
+    text-decoration: none !important;
+    cursor: auto;
+    box-shadow: none !important;
+}
+
+.forn_status_main ul.steps li:before {
+    content: "";
+    width: 1px;
+    height: 100px;
+    background: #eaebed82;
+    position: absolute;
+    left: 55px;
+    top: 18px;
+}
+
+.forn_status_main ul.steps
+li.active:before {
+    background: #162443;
+}
+
+.forn_status_main ul.steps li:last-child:before {
+    content: none;
+}
+
+.forn_status_main .body ul li.active a.status_btn {
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16) !important;
+    border: solid 1px #d1752d !important;
+    color: #d1752d !important;
+}
+
+.forn_status_main .body ul li.active a.link_btn {
+    background-color: #005baa;
+}
+
+.forn_status_main .body ul .boxs {
+    box-shadow: none;
+    background-color: #f5f6f6;
+    float: left;
+    width: 100%;
+    margin: 0px 0px 30px 0px;
+}
+
+.forn_status_main .body ul li.active span.circle {
+    background: #162443;
+    color: #fff;
+    border-color: #162443;
+}
+
+.forn_status_main .body ul li.active .labels {
+    color: #162443;
+}
+
+.forn_status_main .body ul li.completed .labels {
+    color: #162443;
+}
+
+div#slot_container table td.time .disable {
+    cursor: not-allowed;
+    background-color: rgb(229, 229, 229) !important;
+    color: #162443;
+}
+
+    div#slot_container table td.time .disable > * {
+        pointer-events: none;
+        color: #162443;
+    }
+
+    div#slot_container table td.time .disable:hover {
+        color: #16244380;
+    }
+
+aside.main-sidebar.wizard {
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+}
+
+.forn_status_main .body ul li.completed a.status_btn {
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16) !important;
+    border: solid 0px #3ec500 !important;
+    color: #3ec500 !important;
+    text-decoration: none;
+    box-shadow: none !important;
+}
+
+.forn_status_main .body ul li.completed a.link_btn {
+    background-color: #005baa;
+}
+
+
+
+.forn_status_main .body ul li.completed span.circle {
+    background: url(../img/chk-arr.png);
+    float: none;
+    display: block;
+    height: 40px;
+    width: 40px;
+    background-repeat: no-repeat;
+    background-size: 33px;
+}
+
+.forn_status_main ul.steps li.completed:before {
+    background: #3ec500;
+}
+
+.forn_status_main ul.steps li.completed .dates {
+    font-family: ProximaNova-Semibold;
+    font-size: 16px;
+    /*color: #b4b9c4;*/
+}
+
+    .forn_status_main ul.steps li.completed .dates span {
+        color: #b4b9c4;
+    }
+
+.forn_status_main ul.steps li.disable * {
+    z-index: 1;
+}
+
+.forn_status_main ul.steps li.disable:after {
+    content: "";
+    width: 100%;
+    height: 65px;
+    background: #00000000;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 9;
+}
+
+ul.links li {
+    float: left;
+    display: inline-block;
+    padding: 0px 30px 0px 0px !important;
+    border: none !important;
+}
+
+ul.links {
+    float: left;
+    display: block;
+    margin: 0px 0px 20px 0px;
+}
+
+    ul.links li a {
+        float: left;
+        display: block;
+        padding: 0px 15px 0px 0px;
+    }
+
+        ul.links li a:before {
+            content: "\f105";
+            font-family: fontAwesome;
+            position: absolute;
+            right: 0px;
+        }
+
+
+
+div#slot_container table td {
+    font-family: ProximaNova-Semibold;
+    font-size: 16px;
+    color: #162443;
+    padding: 15px 15px 15px 25px;
+}
+
+body .address_box textarea, body .address_box input, body .address_box select, body .address_box .chosen-single {
+    font-family: FiraSans-Regular !important;
+    font-size: 16px !important;
+    color: #162443 !important;
+    color: #58595B !important;
+    border-radius: 2px !important;
+    border: solid 1px rgba(88, 89, 91, 0.2) !important;
+    background-color: #ffffff !important;
+    font-weight: normal;
+}
+
+div#slot_container table td.date {
+    opacity: 0.6;
+    border: 1px solid #ddd;
+}
+
+div#slot_container table td {
+    border-bottom: 1px solid #ddd;
+}
+
+    div#slot_container table td.time span {
+        margin: 0px 15px 0px 0px;
+        background: #005baa14;
+        border: 1px solid #005baa57;
+        box-shadow: none;
+        color: #16244373;
+        padding: 10px 15px 0;
+        color: #162443;
+        font-family: Roboto-Regular;
+        transition: all ease 0.5s;
+    }
+
+        /*div#slot_container table td.time span.selected {
+	background: #005baa;
+	color: #fff;
+}*/
+
+        /*/div#slot_container table td.time span:hover {
+	background: #005baa;
+	color: #fff;
+}*/
+
+        div#slot_container table td.time span.active {
+            color: #162443;
+        }
+
+.address_box .form-group {
+    margin-bottom: 25px; /*width: 91%;*/
+    float: left;
+}
+
+.address_box.address_wrapper.gdpi .form-group {
+    width: 50%;
+}
+
+.address_box.gdpi .form-group {
+    margin: 0px 30px 30px 30px;
+}
+
+div#slot_container table {
+    margin: 0px 30px;
+    border: 1px solid #ddd;
+    margin-bottom: 25px;
+    width: 90%;
+}
+
+.highlight {
+    color: #d73c3a;
+}
+
+.alert-warning { /*border-color: #e50019; color: #fff !important; background-color: #e50019 !important;*/
+}
+
+.address_box.gdpi .btnprev {
+    margin: 0px 30px 20px 0px;
+}
+
+.address_box.gdpi .table > tbody > tr > td {
+    border-top: none
+}
+
+.document_upload .name {
+    font-family: ProximaNova-Semibold;
+    font-size: 16px;
+    color: #162443;
+    margin: 0px 0px 10px 0px;
+    opacity: 0.6;
+    float: left;
+    width: 100%;
+}
+
+.document_upload .qq-uploader .qq-upload-button {
+    font-family: Proxima-Nova-Bold !important;
+    font-size: 16px;
+    background-color: #005baa;
+    padding: 10px;
+    min-width: 165px;
+    text-align: center;
+    padding: 8px 0 !important;
+}
+
+.qq-uploader {
+    margin: 0px 0px 18px 0px;
+}
+
+ul.qq-upload-list li span {
+    font-family: ProximaNova-Semibold;
+    font-size: 16px;
+    color: #162443;
+    opacity: 0.7;
+    padding: 0px 25px 10px 0px;
+    float: left;
+    display: block;
+    display: none !important;
+}
+
+ul.qq-upload-list li span {
+    font-family: ProximaNova-Semibold;
+    font-size: 16px;
+    color: #162443;
+    opacity: 0.7;
+    padding: 0px 25px 10px 0px;
+    float: left;
+    display: block;
+}
+
+.document_upload table td a {
+    font-family: ProximaNova-Semibold;
+    font-size: 16px;
+    color: #162443;
+}
+
+body .document_upload table td {
+    padding: 5px 15px;
+    line-height: 40px;
+    height: 40px;
+    border: 1px solid #ddd;
+    background: #fff !important;
+}
+
+a.btn.delete-dynamic-row i {
+    background: #fff !important;
+    color: #162443;
+    font-size: 24px;
+    opacity: 0.7;
+}
+
+    a.btn.delete-dynamic-row i:hover {
+        opacity: 1;
+    }
+
+a.btn.delete-dynamic-row {
+    background: transparent;
+    border: navajowhite;
+}
+
+body .document_upload table {
+    margin: 0px 0px 30px 0px;
+    width: 70%;
+}
+
+
+.exam_detail_form h4 border-bottom: solid 1px #e8e8e8; {
+    font-family: ProximaNova-Semibold;
+    font-size: 20px;
+    margin-bottom: 25px;
+    margin-top: 0px;
+    cursor: pointer;
+}
+
+.exam_detail_form {
+    padding: 30px 25px;
+    position: relative;
+    position: relative;
+    margin: 0px 0px 25px 0px;
+    float: left;
+    width: 100%;
+    background: #f9fbfc;
+    border: solid 1px rgba(112, 112, 112, 0.2);
+    box-shadow: none;
+    background: #fff;
+}
+
+    .exam_detail_form h4 {
+        font-family: ProximaNova-Semibold;
+        font-size: 20px;
+        margin-bottom: 0px;
+        cursor: pointer;
+        padding: 0px 0px 20px 30px;
+        border-bottom: solid 1px #e8e8e8;
+    }
+
+.bx_pdd h4 {
+    font-family: FiraSans-Medium;
+    line-height: 30px;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: left;
+    color: #162443; /* width: 119%; */
+}
+
+.bx_pdd h4 {
+    font-family: FiraSans-Medium;
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: left;
+    color: #162443; /* width: 119%; */
+}
+
+.mb20 {
+    margin-bottom: 20px;
+    float: left;
+    width: 100%;
+}
+
+.address_box .form-group.w45 {
+    float: left;
+    width: 45%;
+}
+
+.address_box .form-group.w46 {
+    float: left;
+    width: 46%;
+}
+/*
+.prog_pref
+
+.document_upload input {
+position: relative !important;
+float: left !important;
+background: #fff;
+}
+.document_upload input:before {
+background: #ffffff;
+position: absolute;
+width: 100%;
+height: 100%;
+left: 0px;
+top: 0px;
+display: block;
+content: "";
+z-index: 9999;
+}*/
+
+.font12 {
+    font-size: 14px;
+}
+
+.font14 {
+    font-size: 14px;
+}
+
+.font16 {
+    font-size: 16px;
+}
+
+.font18 {
+    font-size: 18px;
+}
+
+.font20 {
+    font-size: 20px;
+}
+
+.font22 {
+    font-size: 22px;
+}
+
+.font24 {
+    font-size: 24px;
+}
+
+.font26 {
+    font-size: 26px;
+}
+
+.font28 {
+    font-size: 28px;
+}
+
+.font30 {
+    font-size: 30px;
+}
+
+.font32 {
+    font-size: 32px;
+}
+
+.font34 {
+    font-size: 34px;
+}
+
+.font36 {
+    font-size: 36px;
+}
+
+.font38 {
+    font-size: 38px;
+}
+
+.font40 {
+    font-size: 40px;
+}
+
+.rl {
+    font-family: Roboto-Light;
+}
+
+.pl {
+    font-family: 'ProximaNova-Light';
+}
+
+.rr {
+    font-family: Roboto-Regular;
+}
+
+.ps {
+    font-family: ProximaNova-Semibold;
+}
+
+.pr {
+    font-family: ProximaNova-Regular;
+}
+
+.rm {
+    font-family: Roboto-Medium;
+}
+
+.rl {
+    font-family: Roboto-Light;
+}
+
+.pb {
+    font-family: 'proxima-nova-bold';
+}
+
+.ri {
+    font-family: Roboto-Italic;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.white {
+    color: #FFFFFF;
+}
+
+.pblue {
+    color: #162443;
+}
+
+.lblue {
+    color: #004f9f;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.g3 {
+    color: #333333;
+}
+
+.g6 {
+    color: #666666;
+}
+
+.lred {
+    color: #d73c3a;
+}
+
+.bred {
+    color: #a12023;
+}
+
+.dred {
+    color: #9b2928;
+}
+
+.org {
+    color: #b77112;
+}
+
+.brw {
+    color: #690d25;
+}
+
+.lh27 {
+    line-height: 27px;
+}
+
+.lh30 {
+    line-height: 30px;
+}
+
+.lh44 {
+    line-height: 44px;
+}
+
+.lh35 {
+    line-height: 35px;
+}
+
+.mb20 {
+    margin-bottom: 20px;
+}
+
+.mb25 {
+    margin-bottom: 25px;
+}
+
+.mb30 {
+    margin-bottom: 30px;
+}
+
+.mb350 {
+    margin-bottom: 35px;
+}
+
+.mb40 {
+    margin-bottom: 40px;
+}
+
+.mt20 {
+    margin-top: 20px;
+}
+
+.mt25 {
+    margin-top: 25px;
+}
+
+.mt30 {
+    margin-top: 30px;
+    float: left;
+}
+
+.mt35 {
+    margin-top: 35px;
+}
+
+.mt40 {
+    margin-top: 40px;
+}
+
+.float {
+    float: left;
+}
+
+.full_width {
+    width: 100%;
+}
+
+.block {
+    display: block;
+}
+
+.relative {
+    position: relative;
+}
+
+.sub-titles {
+    color: #162443;
+    font-family: ProximaNova-Semibold;
+    font-size: 20px;
+    opacity: 0.7;
+    line-height: 24px;
+    padding: 0px 0px 10px 0px;
+}
+
+/*.form-group.has-success label {
+	
+	font-size: 16px;
+	color: #58585B;
+}
+*/
+
+
+.exam_detail_form .criteria_name {
+    font-size: 18px;
+}
+
+.exam_detail_form ul.p15 li {
+    padding: 0px 15px 0px 15px;
+}
+
+    .exam_detail_form ul.p15 li hr {
+        padding: 0px 0px 20px 0px;
+        margin: 0px;
+    }
+
+    .exam_detail_form ul.p15 li span.labels {
+        font-family: ProximaNova-Semibold;
+        font-size: 16px;
+        color: #5c667c;
+        margin: 0px 0px 10px 0px;
+        opacity: 1;
+        float: left;
+        width: 100%;
+        display: block;
+    }
+
+#document_upload_container .required:after {
+    margin-right: 10px;
+    content: "*";
+    position: relative;
+    color: red;
+}
+
+.btnprev.addNew {
+    text-align: right;
+    flex-wrap: wrap;
+}
+
+    .btnprev.addNew button {
+        right: 0;
+        position: absolute;
+    }
+
+.btnprev .next {
+    width: auto;
+    background: #58595b !important;
+    color: #fff !important;
+    font-family: FiraSans-Medium;
+    border: none;
+    padding: 0px 20px;
+    height: 42px;
+    line-height: 42px;
+    font-size: 18px;
+}
+
+#frmForgotPassword #btnForgotPassword {
+    width: auto;
+    background: #58595b;
+    color: #fff;
+    font-family: FiraSans-Medium;
+    border: none;
+    padding: 0px 20px;
+    height: 42px;
+    line-height: 42px;
+    font-size: 18px;
+    border-radius: 0;
+}
+
+.form-group.has-error .form-control {
+    font-family: FiraSans-Regular;
+}
+
+.btnprev .next:hover, #frmForgotPassword #btnForgotPassword:hover {
+    background: #b7202e;
+}
+
+#drop-target img {
+    width: 100%;
+    display: block;
+}
+
+#personalDetails .instruction {
+    padding: 2px 18px;
+}
+
+#personalDetails .exam_detail_wrap {
+    padding: 0px;
+    margin: 0px 0px 10px;
+}
+
+.prog_pref .customtool {
+    float: left; /* border: 1px solid #0a101c; */
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    border-radius: 15px; /* background: #060911; */
+    margin: 0px 0px 0px 10px;
+    position: relative;
+    top: 3px;
+}
+
+.profile_wrap .profile img {
+    width: 40%;
+    margin: 0 auto;
+    min-width: 30px;
+}
+
+.prog_pref .customtool .tooltip {
+    top: -25px !important;
+}
+
+.prog_pref .customtool a {
+    float: left;
+    top: 0px;
+}
+
+.prog-pref .left {
+    float: left;
+    position: relative;
+    width: 50%;
+    height: 100%;
+}
+
+.prog-pref .right {
+    float: left;
+    position: relative;
+    width: 50%;
+    height: 100%;
+}
+
+.prog-pref #drag-elements {
+    display: block;
+    background-color: #dfdfdf;
+    border-radius: 5px;
+    min-height: 50px;
+    margin: 0 auto;
+    padding: 2em;
+    padding: 15px 15px 0px 15px;
+    float: left;
+    border: solid 1px #ededed;
+    background-color: #fafafa;
+    width: 100%;
+}
+
+    .prog-pref #drag-elements > div {
+        text-align: left;
+        float: left;
+        padding: 1em;
+        margin: 0 1em 1em 0;
+        box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+        border: 2px solid #ececec;
+        background: #fff;
+        transition: all 0.5s ease;
+        box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+        border: solid 1px #e8e8e8;
+        color: #162443;
+        font-family: ProximaNova-Semibold;
+        font-size: 16px;
+        border: solid 1px #e8e8e8 !important;
+        box-shadow: none;
+        line-height: 24px;
+    }
+
+        .prog-pref #drag-elements > div:active {
+            -webkit-animation: wiggle 0.3s 0s infinite ease-in;
+            animation: wiggle 0.3s 0s infinite ease-in;
+            opacity: 0.6;
+            border: 2px solid #000;
+        }
+
+        .prog-pref #drag-elements > div:hover {
+            box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+        }
+
+.prog-pref #drop-target {
+    border: 2px dashed #34783a;
+    border-radius: 5px;
+    min-height: 50px;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 2em;
+    padding: 15px 15px 0px 15px;
+    display: block;
+    text-align: center;
+    float: left;
+    width: 100%;
+    background-image: url(/css/images/drags.png);
+    background-repeat: no-repeat;
+    min-height: 300px;
+    background-size: cover;
+    background-position: center center;
+}
+
+    .prog-pref #drop-target > div {
+        transition: all 0.5s;
+        text-align: center;
+        float: left;
+        padding: 1em;
+        margin: 0 1em 1em 0;
+        box-shadow: none;
+        border: 2px solid skyblue;
+        background: #F7F7F7;
+        transition: all 0.5s ease;
+        color: #162443;
+        font-family: ProximaNova-Semibold;
+        font-size: 16px;
+        opacity: 1 !important;
+        border-radius: 2px;
+        border: solid 1px #e8e8e8 !IMPORTANT;
+        background-color: #ffffff;
+        text-align: left;
+    }
+
+        .prog-pref #drop-target > div:hover {
+            box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+        }
+
+        .prog-pref #drop-target > div:active {
+            -webkit-animation: wiggle 0.3s 0s infinite ease-in;
+            animation: wiggle 0.3s 0s infinite ease-in;
+            opacity: 0.6;
+            border: 2px solid #000;
+        }
+
+.prog-pref .gu-mirror {
+    position: fixed !important;
+    margin: 0 !important;
+    z-index: 9999 !important;
+    padding: 1em;
+}
+
+.prog-pref .gu-hide {
+    display: none !important;
+}
+
+.prog-pref .gu-unselectable {
+    -webkit-user-select: none !important;
+    -moz-user-select: none !important;
+    -ms-user-select: none !important;
+    user-select: none !important;
+}
+
+.prog-pref .gu-transit {
+    opacity: 0.5;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    filter: alpha(opacity=50);
+}
+
+.prog-pref .gu-mirror {
+    opacity: 0.5;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    filter: alpha(opacity=50);
+}
+
+.prog-pref #drop-target span.preference {
+    width: 28px;
+    height: 28px;
+    text-align: center;
+    border: 1px solid #34783a;
+    border-radius: 28px;
+    display: block;
+    padding: 1px 0px 0px 0px;
+    float: left;
+    margin: 0px 10px 0px 0px;
+    background: #f8f8f8;
+    color: #34783a;
+}
+
+.prog-pref .pg_box {
+    width: 100%;
+    float: left;
+    text-align: left;
+}
+
+#container-wrap {
+    overflow: hidden;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+#left-col {
+    float: left;
+    width: 50%;
+    padding-bottom: 500em;
+    margin-bottom: -500em;
+    background-color: #fafafa;
+}
+
+#right-col {
+    float: left;
+    width: 50%;
+    margin-right: -1px; /* Thank you IE */
+    border-left: 1px solid black;
+    padding-bottom: 500em;
+    margin-bottom: -500em;
+    border: 2px dashed #34783a;
+    background-image: url(/css/images/drags.png);
+    background-repeat: no-repeat;
+    background-position: 60% 1%;
+}
+
+.customtool .tooltip-inner {
+    text-align: left;
+    font-family: ProximaNova-Regular;
+    font-size: 14px;
+    padding-left: 10px;
+    line-height: 20px;
+    padding: 20px;
+}
+
+.table-bordered td {
+    border: 1px solid #e4e4e4 !important;
+    font-family: Roboto-Light;
+    color: #333333;
+    font-size: 14px;
+    padding: 15px 15px !important;
+}
+
+.table-bordered > tbody > tr > td {
+    border: 1px solid #f4f4f4;
+    height: 48px !IMPORTANT;
+    line-height: 48px !important;
+    padding: 0px 15px 0px 15px !important;
+    font-family: Roboto-Light;
+    color: #333333;
+    font-size: 14px;
+}
+
+.qq-upload-button {
+    display: block;
+    width: 105px;
+    padding: 4px 0;
+    text-align: center;
+    background: #880000;
+    border-bottom: 1px solid #ddd;
+    color: #fff;
+    border-radius: 4px;
+    font-family: Proxima-Nova-Bold;
+    font-size: 14px;
+    color: #fff;
+    border-radius: 3px;
+    background-color: #b4b9c4;
+    height: 40px;
+    line-height: 40px;
+    padding: 0px 15px !important;
+    min-width: 120px;
+    text-align: center;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    text-decoration: none;
+    background-color: #005baa !important;
+}
+
+div#document_upload_container .exam_detail_form {
+    padding: 20px 30px 0px 30px;
+    padding: 10px 0px 0px 0px;
+}
+
+#document_upload_container .table-bordered {
+    margin-bottom: 30px;
+}
+
+#document_upload_container .exam_detail_form ul.row.p15 {
+    padding: 20px 30px 20px 30px;
+    list-style: none;
+}
+
+#document_upload_container .table-bordered thead td {
+    font-family: FiraSans-Medium;
+}
+
+#document_upload_container .table-bordered tbody td {
+    font-family: 'ProximaNova-regular', sans-serif;
+}
+
+#document_upload_container .exam_detail_form h4.arw:after {
+    content: "\f107";
+    line-height: 0.7;
+    font-family: FontAwesome;
+    position: absolute;
+    top: 25px;
+    font-size: 20px;
+    right: 30px;
+    text-align: center;
+    border-radius: 50%;
+    content: "\f106";
+}
+
+#document_upload_container .exam_detail_form h4.arw.collapsed:after {
+    content: "\f106";
+    content: "\f107";
+}
+
+ul#formfilled {
+    margin: 0px;
+}
+
+.prog-pref .drop_completed {
+    background: none !important;
+}
+
+.skin-blue.sidebar-collapse .profile_wrap .profile figcaption {
+    background: #f2f3f8;
+    padding: 12px 10px;
+    position: relative;
+    left: -15px;
+    border-radius: 0px 30px 30px 0px;
+    min-width: 110px;
+    display: block;
+    display: none;
+}
+
+.skin-blue.sidebar-collapse .sidebar a {
+    color: #005baa !important;
+    color: #162443 !important;
+}
+
+a.links {
+    color: #005baa !important;
+    font-family: ProximaNova-Semibold !important;
+    font-size: 16px !important;
+    display: block; /* float: left; */
+    margin: 0px 0px 0px 10px;
+    text-decoration: underline !important;
+}
+
+.other_sect .labels {
+    font-family: ProximaNova-Semibold;
+    font-size: 22px;
+    color: #162443;
+    margin: 5px 0px 0px 30px;
+}
+
+.other_sect {
+    border-top: 1px solid #eee;
+    float: left;
+    width: 100%;
+    padding: 25px 0px 20px 0px;
+}
+
+    .other_sect .dates span {
+        color: #b4b9c4;
+    }
+
+    .other_sect .dates span {
+        color: #162443;
+    }
+
+    .other_sect li .dates {
+        font-family: ProximaNova-Semibold;
+        font-size: 16px;
+        color: #d73c3a;
+        text-align: center;
+    }
+
+.alert p {
+    color: #fff;
+}
+
+.tooltips {
+    position: relative;
+    display: inline-block;
+}
+
+    .tooltips .tooltiptext {
+        visibility: hidden;
+        width: 700px;
+        color: #fff;
+        text-align: center;
+        border-radius: 6px;
+        padding: 5px 0; /* Position the tooltip */
+        position: absolute;
+        z-index: 1;
+    }
+
+    .tooltips i.fa {
+        color: #162443;
+        font-size: 18px;
+    }
+
+    .tooltips .tooltiptext img {
+        width: 700px;
+        border: 1px solid #ddd;
+        box-shadow: 2px 2px 5px 2px #ddd;
+        left: -30%;
+        position: relative;
+        top: 15px;
+    }
+
+    .tooltips:hover .tooltiptext {
+        visibility: visible;
+    }
+
+.box-wrap .boxs {
+    padding: 0px 0px 10px 0px;
+    float: left;
+    width: 100%;
+}
+
+.box-wrap {
+    float: left;
+    width: 100%;
+    padding: 0px 15px;
+}
+
+span.input {
+    font-family: ProximaNova-Semibold !important;
+    font-size: 16px !important;
+    color: #162443 !important;
+}
+
+.address_box {
+    float: left;
+    width: 100%;
+    display: block;
+}
+
+.bg-chk {
+    border: solid 1px #ededed;
+    background-color: #fafafa;
+    padding: 30px 10px 20px 10px;
+    margin: 0px 15px;
+    width: calc(100% - 30px);
+}
+
+
+
+.form-check.form-check-inline {
+    margin-bottom: 15px;
+}
+
+.forn_status_main .body ul li .course_type a.link_btn.default {
+    background: #005baa;
+}
+
+.other_sect.steps .dates {
+    padding: 0px;
+    margin: 0px;
+}
+
+a.link_btn.default {
+    background: #005baa;
+    transition: all ease 0.5s;
+    font-family: Proxima-Nova-Bold;
+    font-size: 14px;
+    color: #fff;
+    border-radius: 3px;
+    /* background-color: #b4b9c4; */
+    height: 40px;
+    line-height: 40px;
+    padding: 0px 15px;
+    min-width: 120px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: auto;
+    border: 1px solid #005baa;
+    margin: 0px 7.5px;
+}
+
+a.link_btn.normal {
+    background: #fff;
+    transition: all ease 0.5s;
+    font-family: Proxima-Nova-Bold;
+    font-size: 14px;
+    color: #005baa;
+    border-radius: 3px;
+    /* background-color: #b4b9c4; */
+    height: 40px;
+    line-height: 40px;
+    padding: 0px 15px;
+    min-width: 120px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: auto;
+    border: 1px solid #005baa;
+    margin: 0px 7.5px;
+}
+
+.instruction .instreg {
+    color: #58595b;
+    font-size: 16px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.instruction h3 {
+    color: #b7202e;
+    font-size: 20px;
+    margin-bottom: 25px;
+    display: block;
+}
+
+.instruction li {
+    line-height: 21px;
+}
+
+@-webkit-keyframes wiggle {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+
+    25% {
+        -webkit-transform: rotate(2deg);
+    }
+
+    75% {
+        -webkit-transform: rotate(-2deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(0deg);
+    }
+}
+
+@keyframes wiggle {
+    0% {
+        transform: rotate(-2deg);
+    }
+
+    25% {
+        transform: rotate(2deg);
+    }
+
+    75% {
+        transform: rotate(-2deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+.slider.autoplay.slick-initialized.slick-slider {
+    min-height: 270px !important;
+}
+
+button.slick-prev.slick-arrow:after {
+    content: "\e079";
+    content: "\f054";
+    font-family: fontAwesome;
+    content: "\f053";
+    content: "\f104";
+    background: transparent;
+    color: #000;
+    /* width: 25px; */
+    /* height: 25px; */
+    /* font-size: 20px; */
+    /* color: #005baa !important; */
+    /* border: 1px solid #005baa; */
+    /* display: block; */
+    position: absolute;
+    left: 7px;
+    top: -2px;
+}
+
+button.slick-prev.slick-arrow, button.slick-next.slick-arrow {
+    background: #f2f3f8;
+    color: transparent;
+    border: none;
+    width: 25px;
+    height: 25px;
+    font-size: 20px;
+    border: 1px solid #005baa;
+}
+
+    button.slick-next.slick-arrow:after {
+        content: "\e079";
+        /* content: "\f054"; */
+        font-family: fontAwesome;
+        content: "\f053";
+        content: "\f104";
+        background: transparent;
+        color: #000;
+        content: "\e079";
+        content: "\f054";
+        font-family: fontAwesome;
+        content: "\f053";
+        content: "\f104";
+        background: transparent;
+        color: #000;
+        /* width: 25px; */
+        /* height: 25px; */
+        /* font-size: 20px; */
+        /* color: #005baa !important; */
+        /* border: 1px solid #005baa; */
+        /* display: block; */
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        position: absolute;
+        left: 8px;
+        top: -2px;
+        content: "\f105";
+    }
+
+button.slick-arrow {
+    position: absolute;
+    right: 15px;
+    top: 8px;
+    z-index: 99;
+}
+
+button.slick-prev.slick-arrow {
+    right: 50px;
+    width: 25px;
+    height: 25px;
+    font-size: 20px;
+    /* color: #005baa !important; */
+    /* position: relative; */
+}
+
+    button.slick-prev.slick-arrow:hover, button.slick-next.slick-arrow:hover {
+        background: #005baa;
+        transition: all ease 0.5s;
+    }
+
+        button.slick-prev.slick-arrow:hover:after, button.slick-next.slick-arrow:hover:after {
+            color: #fff;
+            transition: all ease 0.5s;
+        }
+
+.slick-disabled {
+}
+
+div#slot_container table td.time span {
+    margin: 0px 15px 10px 0px;
+    padding: 7px 10px;
+}
+
+.exam_detail_wrap {
+    margin: 0px 0px 0px;
+}
+
+.steps .time_box {
+    width: 20%;
+    float: left;
+}
+
+ul.steps li .labels {
+    font-size: 18px;
+    padding: 0px;
+}
+
+.forn_status_main .body ul li .course_type a.status_btn {
+    height: 30px;
+    line-height: 30px;
+    padding: 0px 0px;
+    min-width: 105px;
+}
+
+.forn_status_main ul.steps li.completed .dates {
+    font-size: 12px;
+    margin-top: 2px;
+}
+
+ul.steps li .dates {
+    font-size: 12px;
+}
+
+.forn_status_main .body ul li .course_type a.link_btn {
+    font-size: 12px;
+    height: 30px;
+    line-height: 30px;
+    padding: 0px 0px;
+    min-width: 105px;
+}
+
+.forn_status_main ul.steps li:before {
+    height: 85px;
+}
+
+.steps span.circle {
+    left: 20px;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.forn_status_main ul.steps li:before {
+    left: 36px;
+}
+
+.steps .time_box.name {
+    width: 29%;
+}
+
+.forn_status_main ul.steps li {
+    margin: 0px 0px 0px 0px;
+}
+
+ul.steps li .dates {
+    font-size: 12px;
+    text-align: left;
+}
+
+    ul.steps li .dates span {
+        float: left !important;
+        width: 100% !important;
+        display: block !important;
+    }
+
+ul.steps li .dates {
+    text-align: left !important;
+}
+
+.alert {
+    font-size: 14px;
+}
+
+.forn_status_main .body ul li .course_type:before {
+    height: 45px;
+    width: 45px;
+    left: 22px;
+}
+
+.box_wrap {
+    padding: 0px 30px 0px 40px;
+    margin: 0px 40px 0px 40px;
+    padding: 0px 0px 0px 40px;
+}
+
+.forn_status_main .body ul li .course_type h5 {
+    font-size: 16px;
+}
+
+    .forn_status_main .body ul li .course_type h5 span.names {
+        color: #b7202e;
+        font-size: 18px;
+        font-family: Marcellus-Regular;
+    }
+
+.forn_status_main .body ul li .course_type a {
+    font-size: 14px;
+}
+
+ul.links li {
+    padding: 0px 15px 0px 0px !important;
+}
+
+.coursetitle_wrap .coursetitle h5 {
+    font-size: 16px;
+}
+
+
+
+.other_sect.steps .time_box.name {
+    width: 60%;
+}
+
+.exam_detail_wrap .form-check-inline {
+    margin-right: 15px;
+    margin-bottom: 0;
+    margin-top: 0px;
+}
+
+.accordion_main.alt .content_wrap {
+    padding: 10px 0;
+}
+
+.exam_detail_wrap {
+    margin: 10px 0px 0 30px;
+}
+
+.wh_box {
+    height: auto;
+}
+
+#frmAddress .pl30 {
+    padding-left: 15px;
+}
+
+#workExperienceContainer .fromDate, #workExperienceContainer .toDate {
+    margin-bottom: 20px;
+}
+
+.address_box.address_wrapper.gdpi #gdpiManage.form-group, #gdpiManage .form-group {
+    width: 90%;
+    margin: 0px 30px 30px 15px;
+}
+
+.note {
+    padding-left: 15px;
+}
+
+div#slot_container table {
+    margin: 0px 0px;
+}
+
+}
+
+/*AD BRANCH CODE*/
+
+.program-heading {
+    font-size: 22px;
+    font-family: FiraSans-Regular;
+    color: #b7202e;
+    margin-bottom: 30px;
+}
+
+.notes-para {
+    font-family: FiraSans-Medium;
+    font-size: 16px;
+    color: #58595b;
+    line-height: 24px;
+}
+
+.pgrmbtn {
+    margin-top: 15px;
+}
+
+.wraps {
+    position: relative;
+}
+
+.loginshow {
+    padding: 0px;
+}
+
+.form-group label {
+    font-family: FiraSans-Regular;
+    font-size: 14px;
+    color: #58595b;
+    margin-bottom: 10px;
+    opacity: 1;
+}
+
+.prgm-prev {
+    float: left;
+}
+
+.modal-open .modal {
+    z-index: 99999;
+}
+
+#successregister .modal-content {
+    font-family: FiraSans-Regular;
+    line-height: 20px;
+}
+
+.dashboard-box ul li .course_type h5 {
+    margin-bottom: 5px;
+}
+
+.prgm-prevbtn {
+    margin-bottom: 15px;
+    background: #fff;
+    color: #58595b;
+    font-size: 18px;
+    font-family: FiraSans-Medium;
+    border: 1px solid #58595b;
+    line-height: 42px;
+    padding: 0px 20px;
+}
+
+    .prgm-prevbtn:hover {
+        border: 1px solid #b7202e;
+        color: #b7202e;
+    }
+
+.inst_names {
+    font-family: FiraSans-Regular;
+    color: #58595b;
+    font-size: 18px;
+}
+
+.dashboard-table {
+    border: solid 1px rgba(88, 89, 91, 0.2);
+}
+
+    .dashboard-table th, td {
+        padding: 25px 20px;
+    }
+
+    .dashboard-table th {
+        font-family: FiraSans-Medium;
+        color: #58595b;
+        font-size: 18px;
+    }
+
+    .dashboard-table > tbody > tr {
+        border-bottom: solid 2px rgba(88, 89, 91, 0.07);
+    }
+
+        .dashboard-table > tbody > tr > th {
+            border-top: solid 1px rgba(88, 89, 91, 0.2);
+        }
+
+        .dashboard-table > tbody > tr > td {
+            padding: 25px 20px;
+            font-family: FiraSans-Regular;
+            color: #58595b;
+        }
+
+.continue-btn {
+    font-family: FiraSans-Medium;
+    color: #58595b;
+    font-size: 16px;
+    border: solid 1px #58595b;
+    padding: 10px 20px;
+    background: #fff;
+}
+
+    .continue-btn:hover {
+        color: #b7202e;
+        border: solid 1px #b7202e;
+    }
+
+.forn_status_main .body ul .boxs:last-child {
+    margin: 0;
+}
+
+.green-alert {
+    width: 100%;
+    float: left;
+    background: #fcfff5;
+    border: 1px solid;
+}
+
+.iti__flag-box, .iti__country-name {
+    margin-right: 6px;
+    font-family: FiraSans-Regular;
+    font-size: 14px;
+}
+
+
+.okbtb {
+}
+
+.personaldetail h3 {
+    font-size: 16px;
+    margin-bottom: 15px;
+    color: #b7202e !important;
+    font-size: 20px !important;
+    font-family: FiraSans-Regular !important;
+    margin-bottom: 30px !important;
+    text-transform: capitalize;
+}
+
+.fileUpload.btn.btn-success {
+    background-color: #b7202e;
+    border-color: #b7202e;
+    border-radius: 0;
+}
+
+.guardian_box {
+    margin: 0;
+    padding: 0;
+}
+
+div#divGuardian, #frmAddress {
+    padding: 0;
+}
+
+.guardian-title {
+    padding: 20px 18px;
+}
+
+.gdform_wrap {
+    padding: 20px 20px;
+}
+
+.addresbox_bg {
+    border: solid 1px rgba(112, 112, 112, 0.2);
+    box-shadow: none;
+    background: #fff;
+}
+
+.chknote {
+    width: 100%;
+    float: left;
+    font-family: FiraSans-Regular;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #58595b;
+    margin-bottom: 10px;
+    opacity: 1;
+}
+
+#frmAddress .exam_detail_wrap label {
+    width: 100%;
+    float: left;
+    font-family: FiraSans-Regular;
+    margin-top: 5px;
+    font-size: 14px;
+    color: #58595b;
+    margin-bottom: 10px;
+    opacity: 1;
+}
+/*.guardian-title{
+	padding-bottom: 0;
+}*/
+
+
+.tab_title.guardian-title .exam_detail_wrap {
+    margin: 0;
+}
+
+.bx_pdd {
+    width: 100%;
+    float: left;
+}
+
+.form-row {
+    width: 100%;
+    float: left;
+}
+
+.address_box {
+    border: solid 1px rgba(112, 112, 112, 0.2);
+    box-shadow: none;
+}
+
+.tab_title h2 {
+    color: #b7202e !important;
+    font-size: 20px !important;
+    font-family: FiraSans-Regular !important;
+    margin-bottom: 15px !important;
+    line-height: 26px;
+}
+
+.workExp_title .tab_title {
+    padding-left: 0;
+}
+
+.work_wrap {
+    padding-left: 0;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+    .work_wrap .form-check-inline {
+        margin-top: 0;
+    }
+
+.courcename.achivement h2, .achivement .address_box, .courcename.source h2, .source.address_box {
+    border-radius: 0;
+}
+
+section.payment .title, section.payment .sub_title, .full .labels, .full .contents, section.payment .title, section.payment.transaction .sugs .title, section.payment.transaction .title, section.payment.transaction .sugs .title span {
+    font-family: FiraSans-Regular;
+}
+
+section.payment.transaction .sugs p, section.payment.transaction .sugs a {
+    font-family: FiraSans-Regular !important;
+    line-height: 25px;
+    margin: 0;
+}
+
+section.payment .sec .btn {
+    background: #58595b;
+    color: #fff;
+    font-family: FiraSans-Medium;
+    border: none;
+    padding: 0px 20px;
+    height: 42px;
+    line-height: 42px;
+    font-size: 18px;
+    min-height: auto;
+}
+
+.loginform h3 {
+    font-family: FiraSans-Regular;
+}
+
+.wraps_backpatch_left a {
+    text-decoration: none;
+}
+
+.email-warning {
+    font-family: FiraSans-Regular;
+}
+
+.emailverify {
+    padding-top: 30px;
+}
+
+    .emailverify .email-warning:before {
+        content: "";
+    }
+
+    .emailverify p {
+        padding-left: 0;
+        color: #b7202e;
+        font-family: FiraSans-Regular;
+    }
+
+.email-warning, .alert-warning {
+    font-family: FiraSans-Regular;
+    background: #f58220;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 0;
+    height: auto;
+    margin-bottom: 20px;
+    line-height: initial;
+}
+
+.email-success, .alert-success {
+    font-family: FiraSans-Regular;
+    background: #4caf50;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px;
+    line-height: 22px;
+    border-radius: 0;
+    height: auto;
+    margin-bottom: 20px;
+    line-height: initial;
+}
+
+.email-error, .alert-error {
+    font-family: FiraSans-Regular;
+    background: #ed1c24;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 0;
+    height: auto;
+    margin-bottom: 20px;
+    line-height: initial;
+}
+
+.emailverify .email-error:before {
+    content: '';
+}
+
+.email-info, .alert-info {
+    font-family: FiraSans-Regular;
+    background: #72acff;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 0;
+    height: auto;
+    margin-bottom: 20px;
+    line-height: initial;
+}
+
+.emailverify .email-success:before {
+    content: "";
+}
+
+.successregister .modal-content {
+    padding: 20px;
+    text-align: left;
+}
+/*.loginshow li.active{
+    background: #f5f6f6;
+
+}*/
+.loginshow li.active a {
+    color: #b7202e;
+}
+
+.loginshow li.active.one.border a.underline-center:after {
+    background: #ffffff;
+}
+
+.underline-center:before {
+    background: #b7202e;
+}
+
+.underline-center:hover:before {
+    display: none;
+}
+
+.cusgender {
+    margin-left: 10px;
+}
+
+.tab_title.guardian-title h2 {
+    margin-bottom: 0 !important;
+}
+
+.tab_title.guardian-title .exam_detail_wrap {
+    margin-bottom: 10px;
+}
+
+.address_checkwrap {
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+.achivement .exam_detail_wrap {
+    margin: 0;
+}
+
+    .achivement .exam_detail_wrap .form-check-inline {
+        margin-top: 0;
+    }
+
+.Currentlycity {
+    margin-top: 20px;
+}
+
+.text-note {
+    font-family: FiraSans-Regular;
+    font-size: 16px;
+    color: #b7202e;
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.red-text {
+    color: #dd4b39 !important;
+    font-weight: bold;
+}
+
+.small-red {
+    color: #dd4b39 !important;
+    font-size: 12px;
+}
+
+.upload-btn {
+    width: auto;
+    background: #58595b;
+    color: #fff;
+    font-family: FiraSans-Medium;
+    border: none;
+    color: #fff;
+    padding: 7px 20px;
+    height: 42px;
+    line-height: 42px;
+    font-size: 18px;
+}
+
+    .upload-btn:hover {
+        background: #b7202e;
+        color: #fff;
+        text-decoration: none;
+    }
+
+.doc_upload {
+}
+
+.table-striped.doc_upload-table tbody tr:nth-of-type(odd) {
+    background-color: #fff;
+}
+
+.custom-file-upload {
+    display: inline-block;
+    padding: 12px 12px;
+    cursor: pointer;
+    background: #58595b;
+    color: #fff !IMPORTANT;
+}
+
+#file-name {
+    width: 50%;
+    float: left;
+    font-size: 16px;
+}
+
+.file-chk {
+    width: 20px;
+    margin-right: 5px;
+    float: left;
+    margin-top: 5px;
+}
+
+.del-t {
+    font-size: 20px;
+}
+
+.fullwidth {
+    width: 100%;
+    float: left;
+}
+
+.width-50 {
+    width: 50%;
+    float: left;
+}
+
+#fasset-div {
+    display: none;
+}
+
+.program-heading {
+    font-family: FiraSans-Regular;
+    font-size: 22px;
+    line-height: 27px;
+    color: #b7202e;
+    margin-bottom: 20px;
+}
+.program-affilation {
+    font-size: 18px;
+    line-height: 27px;
+    margin-top: 35px;
+    width: 100%;
+    display: inline-block;
+    color: grey;
+}
+.talebg-grey {
+    background-color: rgba(231, 232, 233, 0.4);
+}
+
+.table-border-right {
+    border-right: solid 1px rgba(88, 89, 91, 0.2);
+}
+
+.table-border-left {
+    border-left: solid 1px rgba(88, 89, 91, 0.2);
+}
+
+.dashboard-app-label {
+    width: 75%;
+    text-align: right;
+    display: block;
+    float: left;
+    padding-top: 12px;
+    padding-right: 20px;
+}
+
+.dashboard-app-select {
+    width: 25%;
+    float: right;
+}
+
+.fullwidthd {
+    background: #f5f6f6;
+    width: 100%;
+    float: left;
+    margin-bottom: 20px;
+    padding-top: 15px;
+    padding-right: 30px;
+}
+
+.forn_status_main .body ul li .course_type .box_wrap {
+    padding: 0;
+    margin: 0px 25px 0px 25px;
+}
+
+.forn_status_main .body ul li .course_type.dashboard-box h5 {
+    margin-bottom: 10px;
+}
+
+.forn_status_main .body ul li .course_type .box_wrap .time_box h5 {
+    /*border-right: 0;*/ height: 27px;
+}
+
+.instruction {
+    padding: 2px 0px;
+    float: left;
+}
+
+    .instruction .exam_detail_wrap {
+        margin: 10px 0px 0 0;
+    }
+
+.source .exam_detail_wrap {
+    margin: 0;
+}
+
+
+.Entrance_exam_wrap {
+    border: solid 1px rgba(88, 89, 91, 0.2);
+    background-color: #fafbfb;
+    width: 100%;
+    float: left;
+    padding: 25px;
+    margin-bottom: 40px;
+}
+
+#successregister .form {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+    #successregister .form .loginbtn {
+        padding: 8px 22px;
+    }
+
+        #successregister .form .loginbtn:hover {
+            text-decoration: none;
+        }
+
+@media screen and (max-width:1441px) {
+    .forn_status_main ul.steps li {
+        margin: 0px 0px 8px 0px;
+    }
+
+        .forn_status_main ul.steps li:before {
+            /*height: 110px;
+		left: 62px;
+		top: 0px;*/
+        }
+
+    div#slot_container table td {
+        padding: 12px 15px 12px 9px;
+    }
+
+    ul.steps li .labels {
+        font-size: 18px;
+    }
+
+    .steps span.circle {
+        /*width: 20px;
+		height: 20px;*/
+        padding: 4px 0px 0px 0px;
+        font-size: 16px;
+    }
+
+    .forn_status_main ul.steps li:before {
+        height: 100px;
+    }
+
+    .alert {
+        font-size: 16px;
+        padding: 10px 35px !important;
+        margin: 0px 0px 20px 0px;
+    }
+
+    .forn_status_main .body ul li .course_type a.status_btn {
+    }
+
+    .forn_status_main .body ul li .course_type a.link_btn {
+        font-size: 14px;
+        height: 36px;
+        line-height: 36px;
+        padding: 0px 15px;
+        min-width: 125px;
+    }
+
+    .forn_status_main .body ul li .course_type h5 {
+        font-size: 20px;
+    }
+
+    .coursetitle_wrap .coursetitle h5 {
+        font-size: 20px;
+    }
+
+    .forn_status_main .body ul li .course_type a {
+        font-size: 16px;
+    }
+
+    ul.steps li .dates {
+        font-size: 14px !important;
+    }
+
+    ul.links li {
+        padding: 0px 20px 0px 0px !important;
+    }
+
+    .address_wrapper h2 {
+        font-size: 20px;
+    }
+
+    .customtool a {
+        right: -20px;
+    }
+
+
+
+    .dropdown.user.user-menu a {
+        font-size: 12px;
+    }
+
+    .prog-pref #drag-elements > div {
+        font-size: 14px;
+        line-height: 18px;
+        padding: 8px;
+        min-height: 54px;
+    }
+
+    .exam_detail_form h4 {
+        font-size: 18px;
+    }
+
+    .exam_detail_form .criteria_name {
+        font-size: 16px;
+    }
+
+    .exam_detail_form ul.p15 li span.labels {
+        font-size: 14px;
+    }
+
+    .other_sect .labels {
+        font-size: 18px;
+    }
+
+    .prog-pref #drop-target > div {
+        font-size: 14px;
+        line-height: 18px;
+        padding: 8px;
+        min-height: 54px;
+    }
+}
+
+@media screen and (max-width:1280px) {
+    .prog-pref #drag-elements > div, .prog-pref #drop-target > div {
+        font-size: 14px !important;
+        line-height: 20px !important;
+    }
+
+
+    .tooltips .tooltiptext {
+        width: 600px;
+    }
+
+        .tooltips .tooltiptext img {
+            width: 600px;
+        }
+
+    .tooltips .tooltiptext {
+        left: -200px;
+        top: 15px;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .steps .time_box.num {
+        width: 11%;
+        min-width: 75px;
+    }
+
+    .accordion_main.alt {
+        background-color: #ffffff;
+        float: left;
+    }
+
+    .source .exam_detail_wrap label {
+        font-size: 14px;
+    }
+
+    section.payment .title img {
+        width: 30px;
+    }
+
+    .forn_status_main .body ul li .course_type h5 .inst_names, .forn_status_main .body ul li .course_type h4 .inst_names {
+        font-size: 16px;
+        line-height: 21px;
+    }
+
+    .coursetitle_wrap #lblInstName, .coursetitle_wrap #lblCourseName {
+        font-size: 16px;
+    }
+
+    #personalDetails .gender.exam_detail_wrap .genderlabel.g1gender {
+        width: 100%;
+        float: left;
+    }
+
+    #personalDetails .gender.exam_detail_wrap .genderadio {
+        width: 100%;
+        float: left;
+    }
+
+    #personalDetails .gender.exam_detail_wrap {
+        margin: 0px 0px 0;
+    }
+}
+
+
+@media screen and (max-width:1020px) {
+    .steps .time_box.name {
+        width: 28%;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .accordion_main .content_wrap form ul {
+        -webkit-display: flex;
+        -moz-display: flex;
+        -ms-display: flex;
+        -o-display: flex;
+        display: flex;
+        -webkit-flex-wrap: wrap;
+        -moz-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        -o-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .radio_custom_wrap.col-md-6 {
+        width: 100%;
+    }
+
+    .accordion_wrap {
+        padding: 20px;
+    }
+
+    .accordion_main button:after {
+        right: 20px;
+    }
+
+
+
+    .accordion_main .content_wrap {
+        padding: 20px;
+    }
+
+    /*.exam_detail_wrap { padding: 25px 0px; }*/
+
+
+    .accordion_main:last-child {
+        margin: 0;
+    }
+
+    .exam_detail_form {
+        padding: 20px;
+    }
+
+
+
+    .tab_title {
+        padding: 20px;
+    }
+
+    .forn_status_wrap {
+        padding: 20px;
+    }
+
+    .forn_status_main .title {
+        padding: 20px;
+    }
+
+    .forn_status_main .body ul li {
+        padding: 20px;
+    }
+
+    .forn_status_main .body .btnprev {
+        float: none;
+        margin-bottom: 0px;
+    }
+
+    .profile_wrap .link_list ul li {
+        padding: 25px;
+    }
+
+    .button_sec_wrap .btnprev {
+        margin: 20px 0px;
+    }
+
+    .exam_detail_form ul li .form-group .gj-datepicker {
+        width: 100%;
+        margin: 0px 0px 20px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .address_wrapper h2, .exam_detail_form .criteria_name {
+        font-size: 16px;
+    }
+
+    .exam_detail_form h4 {
+        font-size: 18px;
+    }
+
+    .tooltips .tooltiptext {
+        left: -19vw;
+        top: 15px;
+    }
+
+    .prgm-prev {
+        margin: 0;
+    }
+
+    #personalDetails {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    #croppie-image {
+        margin: 0 10px 25px auto;
+    }
+
+    .exam_detail_wrap {
+        margin: 0;
+    }
+
+    .forn_status_main .body ul li .course_type .box_wrap {
+        margin: 0;
+    }
+
+    .forn_status_main .body ul li .course_type {
+        margin: 0;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .dashboard-box .time_box.bton.text-right {
+        text-align: left !important;
+    }
+
+    .forn_status_main .body ul li .course_type.dashboard-box h5 {
+        margin-bottom: 0;
+    }
+
+    input, textarea, select, #frmAddress .exam_detail_wrap label {
+        font-size: 12px !important;
+    }
+
+    .source .card-body {
+        padding: 0 34px;
+    }
+
+    .custom_radio label span:after {
+        top: 2px;
+    }
+
+    ::-webkit-input-placeholder {
+        font-size: 12px;
+    }
+
+    ::-moz-placeholder {
+        font-size: 12px;
+    }
+
+    :-ms-input-placeholder {
+        font-size: 12px;
+    }
+
+    ::placeholder {
+        font-size: 12px;
+    }
+
+    .form-group label {
+        font-size: 12px;
+    }
+
+    .prog_pref .right, .prog_pref .left {
+        width: 100%;
+    }
+
+    .#right-col, #left-col, .prog-pref .right, .prog-pref .left {
+        width: 100%;
+    }
+
+    .prog-pref .right {
+        width: 100%;
+    }
+
+    .prog-pref .left {
+        width: 100%;
+    }
+
+    .forn_status_main ul.steps li {
+        margin: 0px 0px 10px 65px;
+        border-bottom: 1px solid #e2e7e9;
+    }
+
+    .steps .time_box.num {
+        width: 11%;
+        min-width: 75px;
+        position: absolute;
+        left: -75px;
+    }
+
+    .steps .time_box.name {
+        width: 50%;
+        text-align: left;
+    }
+
+    ul.steps li .labels {
+        padding: 0px 0px 0px 0px;
+    }
+
+    .steps .time_box.status {
+        width: 50%;
+        float: left;
+        text-align: left;
+    }
+
+    .steps .time_box {
+        width: 50%;
+        float: left;
+        min-height: 40px;
+    }
+
+    .forn_status_main ul.steps li:before {
+        height: 92px;
+    }
+
+    .forn_status_main ul.steps li:before {
+        left: -36px;
+    }
+
+    .alert {
+        font-size: 14px;
+        padding: 5px 20px !important;
+    }
+
+    .address_wrapper h2 {
+        font-size: 18px;
+    }
+
+    .steps .labels {
+        min-height: 18px;
+    }
+
+    .steps .time_box {
+        min-height: 50px;
+    }
+
+    .forn_status_main ul.steps li:before {
+        left: -40px;
+        top: 20px;
+        height: 120%;
+    }
+
+    .forn_status_main ul.steps li {
+        margin: 0px 0px 0px 65px;
+        border-bottom: 1px solid #e2e7e9;
+        padding: 15px 15px 0px 15px;
+    }
+
+    .other_sect.steps .time_box.name {
+        width: 58%;
+    }
+
+    .forn_status_main .body ul li {
+        padding: 15px 0px;
+    }
+
+    .forn_status_main ul.steps li:before {
+        left: 36px;
+        top: 15px;
+        height: 110px;
+    }
+
+    ul.links {
+        float: left;
+        display: block;
+        margin: 15px 0px 20px 0px;
+    }
+
+    alert strong {
+        display: none;
+    }
+
+    .prgm-prevbtn {
+        margin-right: 15px;
+    }
+
+    .accordion_wrap {
+        padding: 15px;
+    }
+
+    .eduDetail_wrap .accordion_wrap {
+        padding: 0;
+    }
+
+
+    .accordion_main button {
+        padding: 20px 15px;
+    }
+
+        .accordion_main button:after {
+            top: 24px;
+            right: 15px;
+        }
+
+    button.close_btn {
+        top: 5px;
+    }
+
+    .accordion_main .content_wrap {
+        padding: 15px;
+    }
+
+    /*.exam_detail_wrap { padding: 15px 0px; }*/
+    .exam_detail_wrap h6 {
+        font-size: 20px;
+    }
+
+    .exam_detail_wrap h6 {
+        font-size: 18px;
+    }
+
+    .exam_detail_form {
+        padding: 15px;
+    }
+
+        .exam_detail_form h5 {
+            font-size: 20px;
+        }
+
+    .exam_detail_form {
+        padding: 14px;
+    }
+
+    #workExperienceContainer {
+        margin-top: 25px;
+        width: 100%;
+        float: left;
+    }
+
+    .custom_radio {
+        margin-bottom: 10px;
+    }
+
+    .workExp_title {
+        padding: 0;
+    }
+
+    .tab_title {
+        padding: 15px;
+    }
+
+    .forn_status_main .title {
+        padding: 15px;
+    }
+
+        .forn_status_main .title h5 {
+            font-size: 20px;
+        }
+
+    .forn_status_main .body ul li {
+        padding: 20px 15px;
+    }
+
+        .forn_status_main .body ul li .course_type {
+            margin: 0;
+        }
+
+            .forn_status_main .body ul li .course_type h5 {
+                font-size: 20px;
+                margin: 0px;
+                margin-bottom: 10px;
+                border-right: 0;
+            }
+
+        .forn_status_main .body ul li .cust_progress {
+            margin: 0px 0px 35px;
+        }
+
+    .profile_wrap .link_list ul li {
+        text-align: center;
+    }
+
+    .forn_status_main .body ul li .course_type:before {
+        height: 45px;
+        width: 45px;
+    }
+
+    .forn_status_wrap {
+        padding: 15px;
+    }
+
+    .profile_wrap {
+        min-height: inherit;
+    }
+
+        .profile_wrap .profile img {
+            width: 120px;
+        }
+
+        .profile_wrap .profile {
+            padding: 15px;
+        }
+
+            .profile_wrap .profile figcaption {
+                font-size: 20px;
+            }
+
+        .profile_wrap .link_list ul li {
+            padding: 20px;
+        }
+
+    .button_sec_wrap .btnprev {
+        margin: 15px 0px;
+    }
+
+    .other_sect {
+        padding: 25px 0px 20px 0px;
+    }
+
+        .other_sect.steps .time_box.name {
+            width: 40%;
+        }
+
+        .other_sect .labels {
+            margin: 5px 0px 0px 0px;
+        }
+
+        .other_sect .time_box.date {
+            width: 30%;
+            float: left;
+        }
+
+        .other_sect.steps .dates {
+            padding: 0px;
+            margin: 0px;
+        }
+
+    .input-group .form-control {
+        width: auto;
+    }
+
+    #croppie-image {
+        margin: 20px 10px 25px 20px;
+    }
+
+    .filemt {
+        padding-left: 10px;
+        margin-top: 15px;
+    }
+
+    .uploadsection .smred {
+        padding: 20px 0px 0px 15px;
+    }
+
+    .exam_detail_wrap .form-check-inline {
+        margin-top: 0;
+    }
+
+    .btnprev {
+        margin: 0 0px;
+        margin-bottom: 30px;
+        width: 100%;
+        float: left;
+    }
+
+    .addresbox_bg {
+        margin: 0px;
+        margin-bottom: 30px;
+        padding-bottom: 0;
+    }
+
+    .Currentlycity {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .mobp0 {
+        padding: 0 !important;
+    }
+
+    #btnAccept {
+        margin-top: 20px;
+    }
+
+    .payment_cont {
+        border-left: none;
+        padding-left: 0;
+    }
+
+    section.payment {
+        border-radius: 0;
+    }
+
+        section.payment .title img {
+            width: 35px;
+        }
+
+    .forn_status_main .body ul li .course_type .box_wrap {
+        margin: 0px 10px 0px 10px;
+    }
+
+    .forn_status_main .body ul li .course_type a.link_btn {
+        margin-top: 10px;
+    }
+
+
+    .cust_link {
+        line-height: 18px;
+        font-size: 12px;
+    }
+
+    .custom_radio label {
+        font-size: inherit;
+    }
+
+    #personalDetails .gender.exam_detail_wrap {
+        margin: 0 0px 10px;
+    }
+}
+
+
+
+
+@media screen and (max-width:650px) {
+    .steps .time_box.status {
+        min-height: 60px;
+    }
+
+    .forn_status_main ul.steps li:before {
+        height: 115px;
+    }
+
+    .tooltips .tooltiptext {
+        width: 500px;
+        left: -25vw;
+        top: 15px;
+    }
+
+        .tooltips .tooltiptext img {
+            width: 500px;
+        }
+
+    section.payment .title {
+        text-align: left;
+        font-size: 20px;
+    }
+
+        section.payment .title img {
+            width: 25px;
+        }
+
+        section.payment .title span {
+            text-align: left;
+        }
+
+    section.payment .sub_title, section.payment.transaction .sugs .title {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .dashboard-app-label {
+        width: 65%;
+    }
+
+    .dashboard-app-select {
+        width: 35%;
+    }
+
+    .workExp_title .btnprev.addNew .next {
+        position: relative;
+    }
+
+    .workExp_title .tab_title {
+        padding: 0;
+    }
+
+    #workExperienceContainer {
+        margin-top: 0;
+    }
+
+    .steps .time_box.name, .steps .time_box.status, .steps .time_box, .steps .time_box {
+        width: 100%;
+    }
+
+    .forn_status_main ul.steps li:before {
+        height: 195px;
+    }
+
+    .forn_status_main ul.steps li:before {
+        left: -38px;
+    }
+
+    ul.steps li .labels {
+        padding: 0px 0px 0px 0px;
+        height: auto;
+        min-height: auto;
+    }
+
+    .alert {
+        font-size: 14px;
+        padding: 5px 15px !important;
+    }
+
+    .box_wrap {
+        padding: 0px 0px 0px 0px;
+        margin: 0px 0px 0px 0px;
+    }
+
+    .forn_status_main .body ul li .course_type:before, .coursetitle_wrap .coursetitle h5:before {
+        content: none;
+    }
+
+    .form-filled .forn_status_main .body ul li .course_type a, .form-filled .forn_status_main .body ul li .course_type h5, .coursetitle_wrap .coursetitle h5 {
+        font-size: 15px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    section.content-header {
+        margin-top: 0px;
+    }
+
+    .forn_status_main .body ul li .course_type a.status_btn {
+        min-width: 120px;
+    }
+
+    .forn_status_main .body ul li .course_type a.link_btn {
+        min-width: 120px;
+    }
+
+    #document_upload_container .table-bordered a {
+        line-height: 24px;
+    }
+
+    ul.links li {
+        padding: 0px 15px 0px 5px !important;
+    }
+
+    .forn_status_main ul.steps li {
+        margin: 0px 0px 10px 20px;
+    }
+
+    .tooltips .tooltiptext {
+        left: -33vw;
+    }
+
+    .steps .time_box.status {
+        min-height: 40px;
+    }
+
+    .steps .time_box.num {
+        min-width: 75px;
+        position: absolute;
+        left: -55px;
+    }
+
+    .forn_status_main ul.steps li:before {
+        left: -6px;
+        height: 112%;
+    }
+
+    .other_sect.steps .time_box.name {
+        width: 33%;
+    }
+
+    .other_sect .time_box.date {
+        width: 33%;
+        float: left;
+    }
+
+    .other_sect.steps .time_box.bton {
+        float: right;
+        text-align: right;
+        width: 33%;
+    }
+
+    .other_sect.steps .dates {
+        font-size: 14px;
+    }
+
+    .other_sect.steps .time_box.bton {
+        float: left;
+        text-align: left;
+        width: 32%;
+        position: relative;
+        left: -15px;
+    }
+
+    .steps .time_box {
+        min-height: auto !important;
+        margin-bottom: 10px;
+    }
+
+    ul.steps li .dates span {
+        width: auto !important;
+        margin-right: 5px;
+    }
+
+    .steps .time_box.date {
+        margin: 0px;
+    }
+
+
+    .btnprev.addNew .next {
+        padding: 0px 20px;
+        height: 40px;
+        line-height: 9px;
+    }
+
+    .total_exp h6 {
+        padding-bottom: 10px;
+    }
+
+    .workExp_title h5 {
+        font-size: 20px;
+    }
+
+    .merit_page .address_box .form-group {
+        margin-bottom: 0px;
+        /* width: 91%; */
+    }
+
+    .merit_page .row.mb20 {
+        margin: 0px;
+    }
+
+    .bg-chk {
+        padding: 15px 10px 0px 0px;
+        margin: 0px 15px;
+    }
+
+    .progrm_sect {
+        margin: 30px;
+    }
+
+    .address_box {
+        margin: 0;
+        margin-bottom: 30px;
+    }
+
+    .maincontent {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .note_main {
+        border-top: 40px solid #eeefef;
+        padding: 15px;
+        border-left: 1px solid #ddd;
+    }
+
+        .note_main:before {
+            border: 10px solid transparent;
+            border-left: 10px solid transparent;
+            top: 0;
+            border-top: 10px solid #eeefef;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            width: 20px;
+            height: 20px;
+        }
+
+        .note_main h3 {
+            transform: inherit;
+            top: -30px;
+            left: 0;
+            margin: 0;
+            text-align: center;
+            width: 100%;
+            font-size: 16px;
+        }
+
+    .mobp0 {
+        padding-left: 5px !important;
+    }
+
+    .tab_title h2 {
+        font-size: 18px !important;
+    }
+
+    .prgm-prevbtn, .btnprev .next, .btnprev.addNew .next, section.payment .sec .btn {
+        font-size: 16px;
+        line-height: 38px;
+        height: auto;
+        padding: 0px 10px;
+    }
+
+   .achivement .card-body {
+        padding: 0 14px;
+    }
+
+    .row.mp10 {
+        padding: 10px 10px;
+    }
+
+    .container.prog_pref {
+        padding: 0 !important;
+    }
+
+    .dashboard-table th {
+        font-size: 16px;
+    }
+
+    .Entrance_exam_wrap .custom_radio label {
+        color: #162443;
+    }
+
+    .table-text-right {
+        text-align: right;
+    }
+
+    .payment-table-section table.
+
+
+    .dashboard-table > tbody > tr > td {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .continue-btn {
+        font-size: 12px;
+        padding: 8px 12px;
+    }
+
+    .coursetitle_wrap #lblInstName, {
+        padding-right: 0;
+        width: 98%;
+        padding-left: 0;
+        text-align: left;
+    }
+
+    .coursetitle_wrap #lblCourseName, {
+        width: 100%;
+        padding-left: 0;
+        text-align: left;
+        padding-left: 0;
+    }
+
+    .coursetitle_wrap #lblInstName, .coursetitle_wrap #lblCourseName {
+        font-size: 16px;
+        line-height: 22px;
+        width: 100%;
+        text-align: left;
+        padding-left: 0;
+    }
+
+    .lbl-border-left {
+        border-left: none;
+        padding-left: 0;
+    }
+
+    .forn_status_main .body ul li .course_type h5 span.names, .forn_status_main .body ul li .course_type h5 .inst_names, .forn_status_main .body ul li .course_type h4 .inst_names {
+        margin-bottom: 5px;
+        display: block;
+    }
+}
+
+
+@media screen and (max-width:480px) {
+    .exam_detail_wrap h6 {
+        font-size: 18px;
+    }
+
+    .coursetitle_wrap .coursetitle h5 {
+        font-size: 18px;
+    }
+
+    .forn_status_main .body ul li .course_type {
+        margin: 0;
+    }
+
+        .forn_status_main .body ul li .course_type h5 {
+            font-size: 18px;
+        }
+
+    .forn_status_main .body .btnprev .next, .forn_status_main .body .btnprev .prev {
+        padding: 6px 30px;
+    }
+
+    .profile_wrap .profile img {
+        width: 100px;
+    }
+
+    .profile_wrap .link_list ul li {
+        padding: 15px;
+    }
+
+        .profile_wrap .link_list ul li a {
+            font-size: 16px;
+        }
+
+    .upl {
+        padding: 8px 10px;
+    }
+
+    .tooltips .tooltiptext {
+        width: 350px;
+        left: -53vw;
+        top: 15px;
+    }
+
+        .tooltips .tooltiptext img {
+            width: 350px;
+        }
+
+    section.payment .boxs {
+        border: none;
+        border-style: none;
+        padding: 0;
+    }
+
+    .payment_cont h6 span {
+        font-size: 20px;
+    }
+
+    .payForm_wrap ul li .row .form-group input {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .filemt .input-group .form-control {
+        margin-bottom: 15px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .dashboard-app-label {
+        width: 100%;
+        padding-right: 0;
+        text-align: center;
+    }
+
+    .dashboard-app-select {
+        width: 85%;
+    }
+
+    .coursetitle_wrap #lblInstName {
+        width: 96%;
+    }
+}
+.form-group.has-error label {
+    font-family: FiraSans-Regular;
+    font-size: 14px;
+    color: red;
+    margin-bottom: 10px;
+    opacity: 1;
+}
+
+
+.file_container a {
+     
+    display: block;
+}
+
+.file-chk {
+    pointer-events: none !important;
+    display: block;
+}
+
+.qq-upload-drop-area {
+    display: none !important;
+}
