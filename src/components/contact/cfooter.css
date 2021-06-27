@@ -3,7 +3,7 @@
     justify-content: flex-end;
 
     background-color: white;
-    color: var(--red);
+    color:#b7202e ;
     padding-right: 10px;
     
   }
@@ -11,7 +11,6 @@
   .cfooter-copyright {
     font-family: 'Fira Sans', sans-serif;
     font-size: 1.5rem;
-    opacity: 0.7;
     margin-top:5px;
     font-weight: bold;
   }

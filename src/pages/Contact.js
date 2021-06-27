@@ -17,7 +17,7 @@ const Contact = () => {
     return (
         <>
         <Navbar/>
-        <Intro/>
+        <Intro intro='Contact Us'/>
         <ContactSection/>
         <Map location={location} zoomLevel={17}/>
         <Cfooter/>

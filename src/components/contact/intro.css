@@ -4,16 +4,16 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: #b7202e;
     color: #fff;
-    height: 40vh;
+    height: 30vh;
     padding: 20px;
     
   }
   
   .intro-h2 {
     margin: 0px;
-    margin-top:-100px;
+    color: #b7202e ;
+    text-align: center;
   }
   
   .intro-p {
@@ -23,7 +23,7 @@
   @media screen and (min-width: 699px) {
     .intro-container {
       justify-content: start;
-      align-items: flex-start;
+      align-items: center;
       text-align: left;
       padding: 10%;
       height: 25vh;
@@ -34,6 +34,6 @@
     }
     .intro-h2 {
       margin: 0px;
-      margin-top:-100px;
+      margin-top:-70px;
     }
   }
