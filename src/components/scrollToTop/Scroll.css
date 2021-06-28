@@ -1,0 +1,44 @@
+
+ 
+
+  .scroll-to-top:hover{
+    opacity: 1;
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 0.5;
+    }
+  }
+
+  .scroll-to-top{
+    animation: fadeIn 0.3s;
+    transition: opacity 0.4s;
+    position: fixed;
+    bottom: 20px;
+    right: 15px;
+    z-index: 1000;
+    color: white ;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 4px;
+    font-size: 2rem;
+    padding-right: 0;
+  }
+  .scrolltop{
+      background-color: #b7202e;
+      padding: 5px;
+      padding-right: 10px;
+      padding-left: 10px;
+  }
+
+  @media  screen and (max-width: 720px) {
+    .scroll-to-top{
+        font-size: 1rem;
+    }
+  }

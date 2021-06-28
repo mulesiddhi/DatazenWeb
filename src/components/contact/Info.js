@@ -5,7 +5,7 @@ import React from 'react'
 
 const contactDetails = [
   {
-    value: 'KJ Somaiya College of Engineering, Vidyanagar, Vidyavihar Mumbai, Maharashtra-400089',
+    value: 'K.J. Somaiya College of Engineering, Vidyanagar, Vidyavihar Mumbai, Maharashtra-400089',
     icon: 'fas fa-map-marker-alt',
   },
   { value: '0123456789', icon: 'fas fa-phone-alt' },
@@ -36,7 +36,7 @@ const renderIcons = () =>
 
 const Info = () => (
   <section className="info">
-    <h2 className="info-h2">Contact information</h2>
+    <h2 className="info-h2">information</h2>
 
     <div className="info-details-container">{renderContactDetails()}</div>
 

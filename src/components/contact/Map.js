@@ -10,24 +10,41 @@ const LocationPin = ({ text }) => (
   </div>
 )
 
-const Map = ({ location, zoomLevel }) => (
+const Map = ({ location, zoomLevel }) =>{ 
+  
+  const handleApiLoaded = (map, maps) => {
+    // use map and maps objects
+  };
+  
+  
+  return(
   <div className="map">
     <h2 className="map-h2">You can find us here</h2>
 
     <div className="google-map">
-      <GoogleMapReact
-        bootstrapURLKeys={{ key: '' }}
+      {/* <GoogleMapReact
+        bootstrapURLKeys={{ key: 'AIzaSyB7EKyZA7a5aWQMPcGJiI3PLSgXf8blraM' }}
         defaultCenter={location}
         defaultZoom={zoomLevel}
+        yesIWantToUseGoogleMapApiInternals
+  onGoogleApiLoaded={({ map, maps }) => handleApiLoaded(map, maps)}
       >
         <LocationPin
           lat={location.lat}
           lng={location.lng}
           text={location.address}
         />
-      </GoogleMapReact>
+      </GoogleMapReact> */}
+      <div className='d-flex flex-wrap gmap'>
+     <iframe className='imap' width="700" height="400" frameborder="0" src="https://www.bing.com/maps/embed?h=400&w=500&cp=19.07241336108487~72.89565849304199&lvl=16&typ=d&sty=r&src=SHELL&FORM=MBEDV8" scrolling="no">
+     </iframe>
+     <div >
+        <a id="largeMapLink" target="_blank" href="https://www.bing.com/maps?cp=19.07241336108487~72.89565849304199&amp;sty=r&amp;lvl=16&amp;FORM=MBEDLD">View Larger Map</a> &nbsp; | &nbsp;
+        <a id="dirMapLink" target="_blank" href="https://www.bing.com/maps/directions?cp=19.07241336108487~72.89565849304199&amp;sty=r&amp;lvl=16&amp;rtp=~pos.19.07241336108487_72.89565849304199____&amp;FORM=MBEDLD">Get Directions</a>
+    </div>
+</div>
     </div>
   </div>
-)
+)}
 
-export default Map
+export default Map;

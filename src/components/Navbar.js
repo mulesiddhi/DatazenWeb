@@ -35,12 +35,12 @@ function Navbar() {
 
     return (
         <div>
-          <nav className='navBar fixed-top'>
-          {/* <nav className='navBar'> */}
+          {/* <nav className='navBar fixed-top'> */}
+          <nav className='navBar '>
               <div className='navBar-container'> 
-              <Link to='/' className='navBar-logo'>
+              {/* <Link to='/' className='navBar-logo'>
                 DataZen
-              </Link>
+              </Link> */}
               <div className='menu-Icon' onClick={handleClick}>
                   <i className={click ? 'fas fa-times':'fas fa-bars'}/>
 
@@ -77,12 +77,12 @@ function Navbar() {
                     Team
                     </Link>
                 </li> 
-                <li className='nav-Item'>
+                {/* <li className='nav-Item'>
                     <Link to='/survey' smooth={true} className='nav-Links' onClick={closeMobileMenu}>
                     Survey
                     </Link>
                 </li> 
-               
+                */}
               </ul>
               </div>
           </nav>  

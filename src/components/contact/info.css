@@ -1,9 +1,9 @@
 .info {
     text-align: left;
     padding: 20px;
-    background-color:white;
-background-image: linear-gradient(315deg, #b7202e   40%,   #b3aeae 80%);
-    color: var(--white);
+    background-color:#e7e8e9;
+
+    color: #000;
     
   }
   
@@ -14,6 +14,7 @@ background-image: linear-gradient(315deg, #b7202e   40%,   #b3aeae 80%);
     font-size:1.5rem;
     font-family: 'Fira Sans', sans-serif;
     font-weight: 800;
+    color: #b7202e;
   }
   
   .info-details-container {
@@ -35,10 +36,10 @@ background-image: linear-gradient(315deg, #b7202e   40%,   #b3aeae 80%);
     /* font-size: 3rem; */
     margin-right: 20px;
     cursor: pointer;
-    color:#fff;
+    color:#000;
   }
   .info-icon:hover{
-      color:#fff;
+      color:#b7202e;
   }
   
   @media screen and (min-width: 699px) {

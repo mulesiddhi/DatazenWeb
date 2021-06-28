@@ -4,6 +4,7 @@ import Intro from '../components/contact/Intro';
 import Map from '../components/contact/Map';
 import Navbar from '../components/Navbar'
 import React from 'react'
+import Scroll from '../components/scrollToTop/Scroll';
 
 const location = {
     address: 'KJ Somaiya College of Engineering, Vidyanagar, Vidyavihar Mumbai, Maharashtra-400089',
@@ -17,9 +18,10 @@ const Contact = () => {
     return (
         <>
         <Navbar/>
-        <Intro/>
+        <Intro intro='Contact Us'/>
         <ContactSection/>
         <Map location={location} zoomLevel={17}/>
+        <Scroll/>
         <Cfooter/>
         {/* <Footer/>   */}
         </>

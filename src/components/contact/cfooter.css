@@ -1,24 +1,23 @@
 .cfooter {
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
 
-    background-color: white;
-    color: var(--red);
-    padding-right: 10px;
+    background-color:#f5f6f6;
+    color:#b7202e ;
+    padding-left: 10px;
     
   }
   
   .cfooter-copyright {
     font-family: 'Fira Sans', sans-serif;
     font-size: 1.5rem;
-    opacity: 0.7;
     margin-top:5px;
     font-weight: bold;
   }
   
   @media screen and (min-width: 699px) {
     .cfooter {
-      padding-right: 40px;
+      padding-left: 40px;
     }
     
   }

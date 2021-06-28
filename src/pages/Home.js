@@ -2,11 +2,13 @@ import '../App.css';
 
 import About from '../components/About'
 import Accordion from '../components/Accordion';
+import Cfooter from '../components/contact/Cfooter';
 import Event from '../components/events/Event';
 import Footer from '../components/Footer'
 import HeroSection from '../components/HeroSection';
 import Navbar from '../components/Navbar'
 import React from 'react';
+import Scroll from '../components/scrollToTop/Scroll';
 
 function Home() {
   return (
@@ -16,6 +18,7 @@ function Home() {
       <About/>
       <Event/>
       <Accordion/>
+      <Scroll/>
       <Footer/>
     </>
   );
