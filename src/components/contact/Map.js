@@ -10,15 +10,24 @@ const LocationPin = ({ text }) => (
   </div>
 )
 
-const Map = ({ location, zoomLevel }) => (
+const Map = ({ location, zoomLevel }) =>{ 
+  
+  const handleApiLoaded = (map, maps) => {
+    // use map and maps objects
+  };
+  
+  
+  return(
   <div className="map">
     <h2 className="map-h2">You can find us here</h2>
 
     <div className="google-map">
       {/* <GoogleMapReact
-        bootstrapURLKeys={{ key: '' }}
+        bootstrapURLKeys={{ key: 'AIzaSyB7EKyZA7a5aWQMPcGJiI3PLSgXf8blraM' }}
         defaultCenter={location}
         defaultZoom={zoomLevel}
+        yesIWantToUseGoogleMapApiInternals
+  onGoogleApiLoaded={({ map, maps }) => handleApiLoaded(map, maps)}
       >
         <LocationPin
           lat={location.lat}
@@ -36,6 +45,6 @@ const Map = ({ location, zoomLevel }) => (
 </div>
     </div>
   </div>
-)
+)}
 
-export default Map
+export default Map;
