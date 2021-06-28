@@ -36,7 +36,7 @@ const Map = ({ location, zoomLevel }) =>{
         />
       </GoogleMapReact> */}
       <div className='d-flex flex-wrap gmap'>
-     <iframe className='imap' width="700" height="400" frameborder="0" src="https://www.bing.com/maps/embed?h=400&w=500&cp=19.07241336108487~72.89565849304199&lvl=16&typ=d&sty=r&src=SHELL&FORM=MBEDV8" scrolling="no">
+     <iframe className='imap' width="700" height="400" frameborder="0" src="https://www.google.com/maps?q=K.+J.+Somaiya+College+of+Engineering&t=&z=13&ie=UTF8&iwloc=&output=embed" scrolling="no">
      </iframe>
      <div >
         <a id="largeMapLink" target="_blank" href="https://www.bing.com/maps?cp=19.07241336108487~72.89565849304199&amp;sty=r&amp;lvl=16&amp;FORM=MBEDLD">View Larger Map</a> &nbsp; | &nbsp;
