@@ -1,10 +1,10 @@
 .cfooter {
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
 
     background-color: white;
     color:#b7202e ;
-    padding-right: 10px;
+    padding-left: 10px;
     
   }
   
@@ -17,7 +17,7 @@
   
   @media screen and (min-width: 699px) {
     .cfooter {
-      padding-right: 40px;
+      padding-left: 40px;
     }
     
   }
