@@ -36,7 +36,7 @@ function Navbar() {
     return (
         <div>
           {/* <nav className='navBar fixed-top'> */}
-          <nav className='navBar'>
+          <nav className='navBar '>
               <div className='navBar-container'> 
               {/* <Link to='/' className='navBar-logo'>
                 DataZen
