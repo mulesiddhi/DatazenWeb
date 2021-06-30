@@ -34,13 +34,11 @@ function Navbar() {
     const url=(location.pathname);
 
     return (
-        <div>
-          {/* <nav className='navBar fixed-top'> */}
-          <nav className='navBar '>
-              <div className='navBar-container'> 
-              {/* <Link to='/' className='navBar-logo'>
-                DataZen
-              </Link> */}
+          <div className='navBar '>
+              <Link to='/' className='navBar-logo '>
+              <img className='navlogo ' alt='logo' src={process.env.PUBLIC_URL + "/images/Brain Logo Transparent.png"}/>
+              {/* DataZen */}
+              </Link>
               <div className='menu-Icon' onClick={handleClick}>
                   <i className={click ? 'fas fa-times':'fas fa-bars'}/>
 
@@ -78,15 +76,14 @@ function Navbar() {
                     </Link>
                 </li> 
                 {/* <li className='nav-Item'>
-                    <Link to='/survey' smooth={true} className='nav-Links' onClick={closeMobileMenu}>
-                    Survey
+                    <Link to='' smooth={true} className='nav-Links' onClick={closeMobileMenu}>
+                    <img  src={process.env.PUBLIC_URL + "/images/svu.jpg"} alt='svu' className=''/>
                     </Link>
-                </li> 
-                */}
+                </li>  */}
+               
               </ul>
               </div>
-          </nav>  
-        </div>
+        
     )
 }
 export default Navbar

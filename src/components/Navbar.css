@@ -3,9 +3,9 @@
 
 .navBar{
 display:flex;
-justify-content: center;
+justify-content: space-between;
 align-items: center;
-height:70px;
+height:65px;
 z-index: 999;
 padding: 10px 10px 0px 10px;
 background-color:#f5f6f6;
@@ -24,7 +24,7 @@ background-color:#f5f6f6;
 .navBar-logo {
 
     color: #000;
-
+    margin-left:3rem;
     justify-self: start;
     cursor: pointer;
     text-decoration: none;
@@ -49,11 +49,9 @@ background-color:#f5f6f6;
     justify-content: end;
     margin-right: 2rem;
   }
-  .nav-Item{
-    border-right: #58595b solid 1px;
-  }
+  
   .nav-Links {
-    color: #000 !important;
+    color :#58595b !important;
     display: flex;
     align-items: center;
     text-decoration: none !important;
@@ -63,7 +61,7 @@ background-color:#f5f6f6;
 
   }
   .nav-Links:hover {
-    color:#b7202e;
+    color:#b7202e !important;
     transition: all 0.2s ease-out !important;
     cursor: pointer;
   }
@@ -76,11 +74,12 @@ background-color:#f5f6f6;
   .menu-Icon {
     display: none;
   }
-  .acnav{
-    border-bottom: 4px solid #fff;
-  }
+  
 
 @media screen and (max-width:960px){
+  .navBar{
+    height: 80px;
+  }
     .NavbarItems {
         position: relative;
       }
@@ -105,7 +104,7 @@ background-color:#f5f6f6;
         width: 100%;
         height: 90vh;
         position: absolute;
-        top: 69px;
+        top: 79px;
         left: -100%;
         opacity: 1;
         transition: all 0.5s ease;
@@ -127,7 +126,7 @@ background-color:#f5f6f6;
       }
     
       .nav-Links:hover {
-        background-color: rgb(240, 46, 46);
+        background: #e7e8e9;
         color: white;
         border-radius: 0;
       }
@@ -136,7 +135,7 @@ background-color:#f5f6f6;
         position: absolute;
         top: 0;
         left: 0;
-        transform: translate(25%, 50%);
+        transform: translate(25%, 35%);
       }
     
       .menu-Icon {
@@ -176,4 +175,12 @@ background-color:#f5f6f6;
         color: #242424;
         transition: 250ms;
       }
+      .navBar-logo{
+        margin-left: 0;
+      }
+}
+.navlogo{
+  height: 50px;
+  width: 50px;
+  margin-bottom: 10px;
 }

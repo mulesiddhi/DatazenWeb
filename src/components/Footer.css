@@ -1,11 +1,14 @@
 :root{
     --primary:#fff !important;
 }
+.bfooter{
+    position: relative;
+}
 
 .footer-con {
-    padding: 4rem;
+    padding: 7rem;
     background-color:#f5f6f6;
-    color:#b7202e !important ; 
+    color: #58595b !important ; 
     display: flex;  
     justify-content: space-between;
     align-items:flex-start;
@@ -16,6 +19,7 @@
     margin-left:10px;
     font-weight: bold ;
     font-size: 1.17em !important;
+    color: #58595b;
 }
 .ilist{
     display:flex !important;
@@ -42,14 +46,57 @@
     font-size: 1.5em ;
     font-weight: bold;
     padding: 4px;
-    color:#b7202e;
+    color: #000;
 }
 .flinks i{
-    color:#b7202e;
+    color: #58595b;
 }
 .faddress{
     margin-bottom: 7px;
 }
 .ftitle{
     font-weight: bold;
+    color: #000;
+}
+.brightredbg {
+    width: 20%;
+    background-color: #ed1c24;
+    height: 60px;
+    float: left;
+    bottom: 0;
+    position: absolute;
+    z-index: 2;
+}
+.darkredbg {
+    width: 80%;
+    background-color: #b7202e;
+    height: 60px;
+    float: left;
+    bottom: 0;
+    position: absolute;
+    right: 0;
+}
+.rightftpatch {
+    content: "";
+    width: 5%;
+    background-color: #b7202e;
+    height: 40%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+@media (max-width: 480px){
+  .rightftpatch{
+    width: 10%;
+    height: 18%;
+}
+.brightredbg, .darkredbg {
+    height: 50px;
+}
+.footer-con{
+    padding: 4rem;
+}
+}
+.bfooter{
+    margin-top: 60px;
 }

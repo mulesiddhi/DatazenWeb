@@ -5,6 +5,7 @@ import React from 'react'
 
 const Footer = () => {
     return (
+        <div className='bfooter'>
         <div className='footer-con' id='contact' >
             <div className='fbox1'>
             <h1 className='ftitle'>DataZen</h1>
@@ -26,6 +27,11 @@ const Footer = () => {
                 </Link>
                 </li>
             </ul>
+           
+            </div>
+            <div className='fbox-3'> <div className='mb-2'><Link to='' smooth={true} className=''>
+                    <img  src={process.env.PUBLIC_URL + "/images/svu.jpg"} alt='svu' className=''/>
+                    </Link></div>
             </div>
             <div className='fbox2'>
             <h2 className='ftxt2'>Contact Us</h2>
@@ -37,6 +43,10 @@ const Footer = () => {
                 <h3 className='ftxt'><i class="fas fa-envelope"></i>  datazen@somaiya.edu</h3>
             </div>
             </div>
+        </div>
+        <div className='rightftpatch'></div>
+        <div className='brightredbg'></div>
+        <div className='darkredbg'></div>
         </div>
     )
 }
