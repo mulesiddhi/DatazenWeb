@@ -33,7 +33,7 @@ const Event = () => {
      <EventCard
     title='Ask The Experts'
     description='How design is implemented on the web.'
-    href='#'
+    href='https://forms.gle/zLSEpZW8biP2RP2p8'
     icon='fa fa-question'/>
      <EventCard
     title='21 Days Challenge'
