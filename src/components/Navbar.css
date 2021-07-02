@@ -185,3 +185,6 @@ background-color:#f5f6f6;
   width: 50px;
   margin-bottom: 10px;
 }
+.nav-Item{
+  border-left:1px solid black;
+}
