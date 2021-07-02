@@ -22,6 +22,7 @@ video{
     align-items: center;
     /* box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.2); */
     object-fit:contain;
+    
 }
 
 .hero-container>h1{
@@ -149,6 +150,7 @@ video{
     position: relative;
     align-items: center;
     width: 100%;
+    
 }
 .con-img{
     /* max-height: 500px; */
@@ -171,6 +173,7 @@ video{
     margin-bottom: 30px;
     text-align: center;
     border-bottom: #b7202e 2px solid;
+     
 }
 .cap-text{
     text-align: center;
