@@ -183,6 +183,7 @@ background-color:#f5f6f6;
       }
       .navBar-logo{
         margin-left: 0;
+        animation: none;
       }
       .nav-title{
         margin-left:5px;
@@ -192,6 +193,7 @@ background-color:#f5f6f6;
         transform: translate(40%, 10%);
         color:#b7202e !important;
         font-weight: none;
+        animation: none;
       }
 }
 .navlogo{
