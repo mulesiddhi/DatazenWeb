@@ -2,8 +2,10 @@ import "./Teamwrap.css";
 
 import Intro from "../contact/Intro";
 import React from "react";
-import TeamCard from "./TeamCard";
-import TeamCarousel from "./TeamCarousel";
+import TeamAlumini from "./TeamAlumini";
+import TeamCore from "./TeamCore";
+import TeamHeads from "./TeamHeads";
+import TeamMem from "./TeamMember";
 
 // import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -15,13 +17,22 @@ const Team = () => {
   return (
     <div className='container mt-3'>
       <Intro intro='The Team'/>
-      <h4>CORE TEAM</h4>
+      <h4 className='desc'>CORE TEAM</h4>
       <div className='container mb-2'>
-       <TeamCarousel/>
+       <TeamCore
+       />
      </div>
-     <h4>HEADS</h4>
+     <h4 className='desc'>ALUMINI</h4>
      <div className='container'>
-       <TeamCarousel/>
+       <TeamAlumini/>
+     </div>
+     <h4 className='desc'>HEADS</h4>
+     <div className='container'>
+       <TeamHeads/>
+     </div>
+     <h4 className='desc'>TEAM-MEMBERS</h4>
+     <div className='container'>
+       <TeamMem/>
      </div>
      </div>
   );

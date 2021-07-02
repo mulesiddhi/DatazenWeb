@@ -35,7 +35,7 @@ const HeroSection = () => {
                 <div className='banner-red-left-alt '></div>
                 <div className='inner-cont'>
                     <div className='content-des'>
-                    <img className=' w-100 con-img' src='https://th.bing.com/th/id/OIP.32NfUXDAnph5QirsnWmLUAHaEK?w=302&h=180&c=7&o=5&dpr=1.5&pid=1.7' alt='hero-img'/>
+                    <img className=' w-100 con-img' src={process.env.PUBLIC_URL + "/images/heroimg1.jpeg"} alt='hero-img'/>
                     {/* <div className='img-div d-none d-sm-block d-xs-block' style={{
           backgroundImage: `url('https://th.bing.com/th/id/OIP.GK5nzmCXn99oKGlCSvUnwAHaE8?w=268&h=180&c=7&o=5&dpr=1.5&pid=1.7')`,
           backgroundSize: 'cover',

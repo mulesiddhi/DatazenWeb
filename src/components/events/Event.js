@@ -27,20 +27,24 @@ const Event = () => {
   <div class="row">
    <EventCard
     title='Podcast'
-    date='Date:'
-    time='Time: 4:30pm-6:00pm'
+    desc='Organizing podcasts with data scientists from around the world would not only give exposure to us and students but we can know about stuff we never expected to know.  '
+    date='Date: Will Be Released Soon'
+    time=''
     href='#'
     icon='fa fa-podcast'/>
      <EventCard
     title='Ask The Experts'
+    desc='A panel of experienced data scientists and mentors, who shall be answering all your questions.'
     date='Date: July 4th, 2021' 
     time='Time: 4:30pm-6:00pm'
     href='https://forms.gle/zLSEpZW8biP2RP2p8'
     icon='fa fa-question'/>
      <EventCard
     title='21 Days Challenge'
-    date='Date:'
-    time='Time: 4:30pm-6:00pm'
+    desc='It takes 21 days to form a habit
+    We will be holding an event where people who want to participate will take any topic of their interest to work from the beginning to the top for 21days. '
+    date='Date: Will Be Released Soon'
+    time=''
     href='#'
     icon='fa fa-clock-o'/>
     

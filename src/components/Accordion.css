@@ -20,7 +20,6 @@
 .awrap{
     width: 90vw;
   margin: 5rem auto;
-  background: white;
   border-radius: var(--radius);
   padding: 2.5rem 2rem;
   max-width: var(--fixed-width);

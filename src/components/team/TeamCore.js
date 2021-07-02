@@ -7,7 +7,7 @@ import React from 'react'
 import TeamCard from './TeamCard'
 import throttle from 'lodash.throttle';
 
-const TeamCarousel = () => {
+const TeamCore = () => {
 
     const getDeviceConfig = (width) => {
         if(width < 320) {
@@ -40,33 +40,33 @@ const TeamCarousel = () => {
                 <div>
                     <div style={{padding: 8}}>
                         <TeamCard
-                        src='451x451.png'
-                        name='abc'
-                        position='xyz'/>
+                        src='coreTeam/tushar.png'
+                        name='Tushar Sarkar'
+                        position='Co Founder, Mentor'/>
                     </div>
                     </div>
                     <div>
                     <div style={{padding: 8}}>
                         <TeamCard
-                        src='451x451.png'
-                        name='abc'
-                        position='xyz'/>
+                        src='coreTeam/Sashank.png'
+                        name='Sashank M.'
+                        position='Co Founder'/>
                     </div>
                     </div>
                     <div>
                     <div style={{padding: 8}}>
                         <TeamCard
-                        src='451x451.png'
-                        name='abc'
-                        position='xyz'/>
+                        src='coreTeam/saachi.png'
+                        name='Saachi Dholakia'
+                        position='Co Founder, Mentor'/>
                     </div>
                     </div>
                     <div>
                     <div style={{padding: 8}}>
                         <TeamCard
-                        src='451x451.png'
-                        name='abc'
-                        position='xyz'/>
+                        src='coreTeam/bhavish.png'
+                        name='Bhavish Salia'
+                        position='Co Founder'/>
                     </div>
                     </div>
                     </Carousel>
@@ -75,4 +75,4 @@ const TeamCarousel = () => {
     )
 }
 
-export default TeamCarousel
+export default TeamCore;

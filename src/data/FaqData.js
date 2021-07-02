@@ -1,9 +1,9 @@
 const Data = [
     {
       id: 1,
-      title: 'What is DataZen ?',
+      title: 'What is Data Science?',
       info:
-        'DataZen is the official Data Science council of Somaiya Vidyavihar University.',
+        'Data science is the field of study that combines domain expertise, programming skills, and knowledge of mathematics and statistics to extract meaningful insights from data. Data science practitioners apply machine learning algorithms to numbers, text, images, video, audio, and more to produce artificial intelligence (AI) systems to perform tasks that ordinarily require human intelligence. In turn, these systems generate insights which analysts and business users can translate into tangible business value.',
     },
     {
       id: 2,
@@ -13,13 +13,13 @@ const Data = [
     },
     {
       id: 3,
-      title: 'What activities do we organise ?',
+      title: 'Will listening to podcasts related to Data Science  be beneficial?',
       info:
-        'We organise activities that help the youth grow, have speaker sessions to gain current world knowledge and finally competitions to check ones progress and lastly a discord community that\'s available for everyone at all times to post their queries or achievements or just to interact with people who have the same interest as yours.',
+      'Podcasts are a great way to immerse yourself in an industry, especially when it comes to data science. The field moves extremely quickly, and it can be difficult to keep up with all the new developments happening each week! Take advantage of those times in the day when your body is busy, but your mind is free: when you’re commuting to work, exercising at the gym, or cleaning up around the house. These are optimal times to engage your brain in learning something new and ensure you’re staying at the top of your field.'
     },
     {
       id: 4,
-      title: 'Can I join team DataZen even if idk coding ?',
+      title: 'Can I join team DataZen even if I dont know coding ?',
       info:
         'Yes, 21 days provides you with a platform to explore and learn and grow. Like the only thing you need is the will to learn and grow And there\'s a platform where material is provided along with partner if you want to do it with.',
     },

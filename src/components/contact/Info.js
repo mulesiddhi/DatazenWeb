@@ -5,7 +5,7 @@ import React from 'react'
 
 const contactDetails = [
   {
-    value: 'K.J. Somaiya College of Engineering, Vidyanagar, Vidyavihar Mumbai, Maharashtra-400089',
+    value: 'Somaiya Vidyavihar Group of Somaiya Institutions, Vidyanagar, Vidya Vihar East, Vidyavihar, Mumbai, Maharashtra 400077',
     icon: 'fas fa-map-marker-alt',
   },
   { value: '0123456789', icon: 'fas fa-phone-alt' },

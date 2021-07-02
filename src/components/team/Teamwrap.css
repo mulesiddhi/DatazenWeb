@@ -6,3 +6,7 @@
     box-sizing: border-box;
     height: auto;
 }
+.desc{
+    border-bottom:2px solid black;
+    margin-bottom: 5px;
+}

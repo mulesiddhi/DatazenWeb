@@ -7,7 +7,7 @@ import React from 'react'
 import TeamCard from './TeamCard'
 import throttle from 'lodash.throttle';
 
-const TeamCarousel = () => {
+const TeamHeads = () => {
 
     const getDeviceConfig = (width) => {
         if(width < 320) {
@@ -40,33 +40,57 @@ const TeamCarousel = () => {
                 <div>
                     <div style={{padding: 8}}>
                         <TeamCard
-                        src='451x451.png'
-                        name='abc'
-                        position='xyz'/>
+                        src='heads/aditi.png'
+                        name='Aditi Pawar'
+                        position='Event Head'/>
                     </div>
                     </div>
                     <div>
                     <div style={{padding: 8}}>
                         <TeamCard
-                        src='451x451.png'
-                        name='abc'
-                        position='xyz'/>
+                        src='heads/aditya.png'
+                        name='Aditya Shenoy'
+                        position='Social Media Manager'/>
                     </div>
                     </div>
                     <div>
                     <div style={{padding: 8}}>
                         <TeamCard
-                        src='451x451.png'
-                        name='abc'
-                        position='xyz'/>
+                        src='heads/hetul.png'
+                        name='Hetul Mehta'
+                        position='Technical Head'/>
                     </div>
                     </div>
                     <div>
                     <div style={{padding: 8}}>
                         <TeamCard
-                        src='451x451.png'
-                        name='abc'
-                        position='xyz'/>
+                        src='heads/kshitij.png'
+                        name='Kshitij Shah'
+                        position='Creative Head'/>
+                    </div>
+                    </div>
+                    <div>
+                    <div style={{padding: 8}}>
+                        <TeamCard
+                        src='heads/siddharth.png'
+                        name='Siddharth Thakkar'
+                        position='Finance Head'/>
+                    </div>
+                    </div>
+                    <div>
+                    <div style={{padding: 8}}>
+                        <TeamCard
+                        src='heads/sneha.png'
+                        name='Sneha Kothi'
+                        position='Coordinator Head'/>
+                    </div>
+                    </div>
+                    <div>
+                    <div style={{padding: 8}}>
+                        <TeamCard
+                        src='heads/VivekPandey.png'
+                        name='Vivek Pandey'
+                        position='Public Relations Head'/>
                     </div>
                     </div>
                     </Carousel>
@@ -75,4 +99,4 @@ const TeamCarousel = () => {
     )
 }
 
-export default TeamCarousel
+export default TeamHeads;

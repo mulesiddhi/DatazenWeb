@@ -37,7 +37,7 @@ function Navbar() {
           <div className='navBar '>
               <Link to='/' className='navBar-logo '>
               <img className='navlogo ' alt='logo' src={process.env.PUBLIC_URL + "/images/Brain Logo Transparent.png"}/>
-              {/* DataZen */}
+              {/* <h2 className='ml-3 mb-3 navBar-logo'>DataZen</h2> */}
               </Link>
               <div className='menu-Icon' onClick={handleClick}>
                   <i className={click ? 'fas fa-times':'fas fa-bars'}/>

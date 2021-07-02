@@ -36,8 +36,9 @@ const Footer = () => {
             <div className='fbox2'>
             <h2 className='ftxt2'>Contact Us</h2>
             <div className='faddress'>
-            <h3 className='ftxt'><i class="fas fa-map-marker-alt "></i>  KJ Somaiya College of Engineering </h3>
-            <h3 className='ftxt'>Vidyanagar, Vidyavihar Mumbai, Maharashtra-400089</h3>
+            <h3 className='ftxt'><i class="fas fa-map-marker-alt "></i> Somaiya Vidyavihar<br/>
+Group of Somaiya Institutions,  </h3>
+            <h3 className='ftxt'>Vidyanagar, Vidya Vihar East, Vidyavihar,<br/> Mumbai, Maharashtra 400077</h3>
             </div>
             <div>
                 <h3 className='ftxt'><i class="fas fa-envelope"></i>  datazen@somaiya.edu</h3>

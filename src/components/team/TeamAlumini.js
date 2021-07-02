@@ -7,7 +7,7 @@ import React from 'react'
 import TeamCard from './TeamCard'
 import throttle from 'lodash.throttle';
 
-const TeamCarousel = () => {
+const TeamAlumini = () => {
 
     const getDeviceConfig = (width) => {
         if(width < 320) {
@@ -40,39 +40,32 @@ const TeamCarousel = () => {
                 <div>
                     <div style={{padding: 8}}>
                         <TeamCard
-                        src='451x451.png'
-                        name='abc'
-                        position='xyz'/>
+                        src='alumini/451x451.png'
+                        name='Ruchi Bhatia'
+                        position=''/>
                     </div>
                     </div>
                     <div>
                     <div style={{padding: 8}}>
                         <TeamCard
-                        src='451x451.png'
-                        name='abc'
-                        position='xyz'/>
+                        src='alumini/451x451.png'
+                        name='Harshal Shah'
+                        position=''/>
                     </div>
                     </div>
                     <div>
                     <div style={{padding: 8}}>
                         <TeamCard
-                        src='451x451.png'
-                        name='abc'
-                        position='xyz'/>
+                        src='alumini/451x451.png'
+                        name='Darshan Gandhi'
+                        position=''/>
                     </div>
                     </div>
-                    <div>
-                    <div style={{padding: 8}}>
-                        <TeamCard
-                        src='451x451.png'
-                        name='abc'
-                        position='xyz'/>
-                    </div>
-                    </div>
+                   
                     </Carousel>
                     </div> 
         </div>
     )
 }
 
-export default TeamCarousel
+export default TeamAlumini;

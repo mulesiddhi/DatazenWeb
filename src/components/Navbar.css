@@ -23,7 +23,7 @@ background-color:#f5f6f6;
 
 .navBar-logo {
 
-    color: #000;
+  color:#b7202e !important;
     margin-left:3rem;
     justify-self: start;
     cursor: pointer;
@@ -136,6 +136,7 @@ background-color:#f5f6f6;
         top: 0;
         left: 0;
         transform: translate(25%, 35%);
+        color:#b7202e !important;
       }
     
       .menu-Icon {
