@@ -40,25 +40,31 @@ const TeamAlumini = () => {
                 <div>
                     <div style={{padding: 8}}>
                         <TeamCard
-                        src='alumini/451x451.png'
+                        src='alumini/ruchi.JPG'
                         name='Ruchi Bhatia'
-                        position=''/>
+                        position=''
+                        in='https://www.linkedin.com/in/ruchi798/'
+                        icon="fab fa-linkedin-in fa-2x"/>
                     </div>
                     </div>
                     <div>
                     <div style={{padding: 8}}>
                         <TeamCard
-                        src='alumini/451x451.png'
+                        src='alumini/harshal.JPG'
                         name='Harshal Shah'
-                        position=''/>
+                        position=''
+                        in='https://www.linkedin.com/in/harshalharishshah/'
+                        icon="fab fa-linkedin-in fa-2x"/>
                     </div>
                     </div>
                     <div>
                     <div style={{padding: 8}}>
                         <TeamCard
-                        src='alumini/451x451.png'
+                        src='alumini/darshan.JPG'
                         name='Darshan Gandhi'
-                        position=''/>
+                        position=''
+                        in='https://www.linkedin.com/in/gandhi-darshan/'
+                        icon="fab fa-linkedin-in fa-2x"/>
                     </div>
                     </div>
                    

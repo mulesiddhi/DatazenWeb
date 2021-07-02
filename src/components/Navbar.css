@@ -74,6 +74,9 @@ background-color:#f5f6f6;
   .menu-Icon {
     display: none;
   }
+  .nav-title{
+    color:#b7202e !important;
+  }
   
 
 @media screen and (max-width:960px){
@@ -178,6 +181,15 @@ background-color:#f5f6f6;
       }
       .navBar-logo{
         margin-left: 0;
+      }
+      .nav-title{
+        margin-left:5px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: translate(40%, 10%);
+        color:#b7202e !important;
+        font-weight: none;
       }
 }
 .navlogo{

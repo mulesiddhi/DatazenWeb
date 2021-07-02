@@ -1,5 +1,6 @@
 import "./Teamwrap.css";
 
+import { Link } from 'react-router-dom'
 import React from 'react'
 
 const TeamCard = (props) => {
@@ -13,6 +14,9 @@ const TeamCard = (props) => {
                     <div className='column-text mt-1'>
                         <h4 className='h5 mb-1'>{props.name}</h4>
                         <p>{props.position}</p>
+                        <Link to={{ pathname: `${props.in}` }} target="_blank" className='' >
+                <i className={props.icon}></i> 
+                </Link>
                     </div>
                 </section>
             </section>
