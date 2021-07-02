@@ -6,9 +6,9 @@ const EventCard = (props) => {
       <div className="teamcard gr-1">
         <div className="txt">
           <h1>{props.title}</h1>
-          <p>{props.description}</p>
+          <h3>{props.date}<br/>{props.time}</h3>
         </div>
-        <a href={props.href}>Register</a>
+        <a href={props.href} target='_blank' rel="noreferrer">Register</a>
         <div className="ico-card">
       <i className={props.icon}></i>
       </div>

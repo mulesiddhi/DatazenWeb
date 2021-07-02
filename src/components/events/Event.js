@@ -27,17 +27,20 @@ const Event = () => {
   <div class="row">
    <EventCard
     title='Podcast'
-    description='How design is implemented on the web.'
+    date='Date:'
+    time='Time: 4:30pm-6:00pm'
     href='#'
     icon='fa fa-podcast'/>
      <EventCard
     title='Ask The Experts'
-    description='How design is implemented on the web.'
+    date='Date: July 4th, 2021' 
+    time='Time: 4:30pm-6:00pm'
     href='https://forms.gle/zLSEpZW8biP2RP2p8'
     icon='fa fa-question'/>
      <EventCard
     title='21 Days Challenge'
-    description='How design is implemented on the web.'
+    date='Date:'
+    time='Time: 4:30pm-6:00pm'
     href='#'
     icon='fa fa-clock-o'/>
     
