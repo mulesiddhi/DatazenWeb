@@ -40,7 +40,7 @@ const TeamAlumini = () => {
                 <div>
                     <div style={{padding: 8}}>
                         <TeamCard
-                        src='alumini/ruchi.JPG'
+                        src='alumini/ruchi.png'
                         name='Ruchi Bhatia'
                         position=''
                         in='https://www.linkedin.com/in/ruchi798/'
@@ -50,7 +50,7 @@ const TeamAlumini = () => {
                     <div>
                     <div style={{padding: 8}}>
                         <TeamCard
-                        src='alumini/harshal.JPG'
+                        src='alumini/harshal.png'
                         name='Harshal Shah'
                         position=''
                         in='https://www.linkedin.com/in/harshalharishshah/'
@@ -60,7 +60,7 @@ const TeamAlumini = () => {
                     <div>
                     <div style={{padding: 8}}>
                         <TeamCard
-                        src='alumini/darshan.JPG'
+                        src='alumini/darshan.png'
                         name='Darshan Gandhi'
                         position=''
                         in='https://www.linkedin.com/in/gandhi-darshan/'
