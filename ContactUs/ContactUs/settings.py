@@ -142,6 +142,6 @@ STATICFILES_FINDERS = [
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 CORS_ORIGIN_WHITELIST = (
-'http://localhost:3000',
-'http://localhost:8000',
+'http://datazen.somaiya.edu',
+'http://datazen.somaiya.edu:5000',
 )
