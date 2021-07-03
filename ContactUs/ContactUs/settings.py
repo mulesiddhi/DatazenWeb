@@ -144,4 +144,5 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 CORS_ORIGIN_WHITELIST = (
 'http://datazen.somaiya.edu',
 'http://datazen.somaiya.edu:5000',
+    'http://datazen.somaiya.edu/contact'
 )
