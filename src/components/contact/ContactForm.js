@@ -46,7 +46,7 @@ const Form = () => {
     console.log(telRef.current.value);
     console.log(emailRef.current.value);
     console.log(messageRef.current.value);
-    axios.post("http://datazen.somaiya.edu:5000/api/post/", {
+    axios.post("http://datazen.somaiya.edu/api/post/", {
 
       name: nameRef.current.value,
       phone_number: telRef.current.value,
