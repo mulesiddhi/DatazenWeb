@@ -16,7 +16,7 @@ import TeamMem from "./TeamMember";
 const Team = () => {
   return (
     <div className='container mt-3'>
-      <Intro intro='The Team'/>
+      <Intro intro='Meet The Team'/>
       <h4 className='desc'>CORE TEAM</h4>
       <div className='container mb-2'>
        <TeamCore

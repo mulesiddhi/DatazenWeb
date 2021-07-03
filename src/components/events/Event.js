@@ -41,7 +41,7 @@ const Event = () => {
     icon='fa fa-question'/>
      <EventCard
     title='21 Days Challenge'
-    desc='It takes 21 days to form a habit
+    desc='It takes 21 days to form a habit.
     We will be holding an event where people who want to participate will take any topic of their interest to work from the beginning to the top for 21days. '
     date='Date: Will Be Released Soon'
     time=''
