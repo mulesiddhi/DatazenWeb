@@ -8,7 +8,6 @@ const contactDetails = [
     value: 'Somaiya Vidyavihar Group of Somaiya Institutions, Vidyanagar, Vidya Vihar East, Vidyavihar, Mumbai, Maharashtra 400077',
     icon: 'fas fa-map-marker-alt',
   },
-  { value: '0123456789', icon: 'fas fa-phone-alt' },
   { value: ' datazen@somaiya.edu', icon: 'fas fa-envelope ' },
 ]
 
