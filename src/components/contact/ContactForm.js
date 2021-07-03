@@ -54,8 +54,11 @@ const Form = () => {
       message: messageRef.current.value,
     })
 
-
-
+    nameRef.current.value = " "
+    telRef.current.value = " "
+    emailRef.current.value = " "
+    messageRef.current.value = " "
+    
   }
 
   return (
