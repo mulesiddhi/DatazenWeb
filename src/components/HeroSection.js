@@ -41,7 +41,7 @@ const HeroSection = () => {
           backgroundSize: 'cover',
         }}></div> */}
                 <div className='herocaption d-md-block d-flex'>
-                    <div className='d-flex head-div'>
+                    <div className='d-flex flex-wrap head-div'>
                      <img className='logoimg' alt='logo' src={process.env.PUBLIC_URL + "/images/Brain Logo Transparent.png"}/>
                     {/* <div> */}
                     <h1 className='cap-title'>DataZen</h1>
